@@ -1,0 +1,905 @@
+[
+    {
+        "id": "anchoring",
+        "name": "Anchoring",
+        "category": "decision_making",
+        "description": "The tendency to rely too heavily on the first piece of information encountered when making decisions.",
+        "impact": "Initial prices, numbers, or data points disproportionately skew all subsequent judgments and negotiations.",
+        "trigger_phrases": [
+            "The original price was...",
+            "Starting from a baseline of...",
+            "Compared to the first estimate..."
+        ],
+        "argument_patterns": [
+            "First value X presented → all subsequent judgments adjusted relative to X",
+            "Initial anchor A → final estimate stays closer to A than evidence warrants"
+        ],
+        "counter_questions": [
+            "What would my estimate be if I had seen a different starting number?",
+            "Am I adjusting enough from the initial figure?",
+            "What independent evidence do I have for this value?"
+        ],
+        "mitigation": [
+            "Generate your own estimate before seeing external figures",
+            "Deliberately consider extreme values on both ends",
+            "Seek multiple independent data points"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_items": [
+            "framing_effect",
+            "sunk_cost_fallacy"
+        ],
+        "tags": [
+            "negotiation",
+            "pricing",
+            "judgment"
+        ]
+    },
+    {
+        "id": "sunk_cost_fallacy",
+        "name": "Sunk Cost Fallacy",
+        "category": "decision_making",
+        "description": "Continuing a behavior or endeavor because of previously invested resources (time, money, effort) rather than future value.",
+        "impact": "Leads to irrational persistence in failing projects or relationships, wasting additional resources.",
+        "trigger_phrases": [
+            "We've already invested so much...",
+            "We can't quit now after all we've done",
+            "It would be a waste to stop"
+        ],
+        "argument_patterns": [
+            "Already invested X → must continue to justify X",
+            "Past cost C paid → present decision influenced by C rather than future outcomes"
+        ],
+        "counter_questions": [
+            "Would I start this project today if I hadn't already invested in it?",
+            "What advice would I give a friend in the same situation?",
+            "Am I continuing because of future value or past investment?"
+        ],
+        "mitigation": [
+            "Evaluate decisions based only on future costs and benefits",
+            "Ask 'what would a rational outsider advise?'",
+            "Reframe sunk costs as lessons rather than obligations"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_items": [
+            "sunk_cost_fallacy",
+            "anchoring",
+            "commitment_bias"
+        ],
+        "tags": [
+            "economics",
+            "decision_making",
+            "investment"
+        ]
+    },
+    {
+        "id": "availability_heuristic",
+        "name": "Availability Heuristic",
+        "category": "probability",
+        "description": "Overestimating the likelihood of events that are easily recalled in memory, often because they are vivid, recent, or emotionally charged.",
+        "impact": "Distorts risk assessment; causes overreaction to memorable but rare events while ignoring common but unmemorable ones.",
+        "trigger_phrases": [
+            "I can think of several examples of...",
+            "This happens all the time",
+            "I just read about this recently"
+        ],
+        "argument_patterns": [
+            "Easily recalled examples of X → X must be common",
+            "Memorable event E → probability of E overestimated"
+        ],
+        "counter_questions": [
+            "Am I recalling examples easily because they're common, or because they're memorable?",
+            "What do the statistics actually say about this?",
+            "How recently or emotionally have I encountered this information?"
+        ],
+        "mitigation": [
+            "Seek statistical data rather than relying on recalled examples",
+            "Diversify information sources to avoid media-driven salience",
+            "Distinguish between vividness and frequency"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_items": [
+            "confirmation_bias",
+            "negativity_bias",
+            "representativeness_heuristic"
+        ],
+        "tags": [
+            "risk_assessment",
+            "memory",
+            "probability"
+        ]
+    },
+    {
+        "id": "curse_of_knowledge",
+        "name": "Curse of Knowledge",
+        "category": "social",
+        "description": "Once you know something, it becomes very difficult to imagine not knowing it, leading to poor communication with those who lack that knowledge.",
+        "impact": "Causes experts to communicate poorly with novices, creates teaching and leadership failures.",
+        "trigger_phrases": [
+            "It's obvious that...",
+            "Everyone knows...",
+            "This is basic stuff"
+        ],
+        "argument_patterns": [
+            "Expert knows X → assumes audience also knows X → skips foundational explanation",
+            "Knowledge K acquired → expert forgets what it was like not to know K"
+        ],
+        "counter_questions": [
+            "Can I explain this assuming the listener has no prior knowledge?",
+            "What did I not understand before I learned this?",
+            "Am I assuming shared context that may not exist?"
+        ],
+        "mitigation": [
+            "Use analogies and concrete examples when teaching",
+            "Ask your audience what they already know before explaining",
+            "Seek feedback to check for gaps in understanding"
+        ],
+        "severity": "medium",
+        "frequency": "very_common",
+        "related_items": [
+            "fundamental_attribution_error",
+            "false_consensus_effect"
+        ],
+        "tags": [
+            "communication",
+            "teaching",
+            "expertise"
+        ]
+    },
+    {
+        "id": "confirmation_bias",
+        "name": "Confirmation Bias",
+        "category": "reasoning",
+        "description": "The tendency to search for, interpret, and remember information in a way that confirms one's existing beliefs.",
+        "impact": "Reinforces incorrect beliefs, prevents updating of views with new evidence, creates echo chambers.",
+        "trigger_phrases": [
+            "This proves what I've been saying",
+            "See, I was right all along",
+            "The evidence supports my view"
+        ],
+        "argument_patterns": [
+            "Belief B held → seek confirming evidence → ignore disconfirming evidence → B reinforced",
+            "New information I → interpreted to fit existing worldview W regardless of actual implications"
+        ],
+        "counter_questions": [
+            "What evidence would change my mind?",
+            "Am I giving equal weight to contradictory evidence?",
+            "Have I actively sought out opposing viewpoints?"
+        ],
+        "mitigation": [
+            "Actively seek disconfirming evidence",
+            "Engage with high-quality opposing arguments",
+            "Practice steel-manning the opposing view"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_items": [
+            "belief_bias",
+            "backfire_effect",
+            "motivated_reasoning"
+        ],
+        "tags": [
+            "reasoning",
+            "belief",
+            "epistemology"
+        ]
+    },
+    {
+        "id": "dunning_kruger_effect",
+        "name": "Dunning-Kruger Effect",
+        "category": "self_assessment",
+        "description": "The tendency for people with limited knowledge in a domain to overestimate their own competence, while experts tend to underestimate theirs.",
+        "impact": "Leads novices to make overconfident decisions; experts may fail to assert themselves adequately.",
+        "trigger_phrases": [
+            "I've done a bit of reading and...",
+            "How hard can it be?",
+            "I think I understand this better than the experts"
+        ],
+        "argument_patterns": [
+            "Limited knowledge K → overestimated competence → poor decisions",
+            "Expert E with deep knowledge → aware of own ignorance → underconfident communication"
+        ],
+        "counter_questions": [
+            "How much do I actually know about this domain?",
+            "Am I aware of what I don't know?",
+            "What would an acknowledged expert say about my level of understanding?"
+        ],
+        "mitigation": [
+            "Seek feedback from true experts",
+            "Map out what you don't yet know before forming conclusions",
+            "Maintain intellectual humility and openness to correction"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_items": [
+            "dunning_kruger_effect",
+            "imposter_syndrome"
+        ],
+        "tags": [
+            "metacognition",
+            "self_assessment",
+            "expertise"
+        ]
+    },
+    {
+        "id": "belief_bias",
+        "name": "Belief Bias",
+        "category": "reasoning",
+        "description": "Evaluating the strength of an argument based on the believability of its conclusion rather than the logical validity of its structure.",
+        "impact": "Causes acceptance of logically invalid arguments that match existing beliefs and rejection of valid arguments that contradict them.",
+        "trigger_phrases": [
+            "That conclusion sounds right to me",
+            "I believe the conclusion, so the reasoning must be sound",
+            "That can't be right because I don't believe the conclusion"
+        ],
+        "argument_patterns": [
+            "Conclusion C is believable → argument for C accepted regardless of logical validity",
+            "Conclusion C is unbelievable → argument for C rejected regardless of logical validity"
+        ],
+        "counter_questions": [
+            "Is the argument logically valid, independent of whether I believe the conclusion?",
+            "Would I accept this argument if it led to an opposite conclusion?",
+            "Am I evaluating the reasoning or just the outcome?"
+        ],
+        "mitigation": [
+            "Evaluate argument structure separately from conclusion plausibility",
+            "Practice formal logic exercises",
+            "Ask others to evaluate your reasoning without knowing your conclusion"
+        ],
+        "severity": "high",
+        "frequency": "common",
+        "related_items": [
+            "confirmation_bias",
+            "motivated_reasoning"
+        ],
+        "tags": [
+            "logic",
+            "reasoning",
+            "epistemology"
+        ]
+    },
+    {
+        "id": "self_serving_bias",
+        "name": "Self-Serving Bias",
+        "category": "self_assessment",
+        "description": "The tendency to attribute positive outcomes to one's own character and negative outcomes to external factors.",
+        "impact": "Prevents learning from failures and creates interpersonal conflict by shifting blame unfairly.",
+        "trigger_phrases": [
+            "I succeeded because I worked hard",
+            "I failed because of bad luck / other people",
+            "The system is rigged against me"
+        ],
+        "argument_patterns": [
+            "Success S achieved → attributed to personal skill/virtue",
+            "Failure F occurred → attributed to external circumstances/others"
+        ],
+        "counter_questions": [
+            "What role did external factors play in my success?",
+            "What role did I play in this failure?",
+            "Would I explain someone else's identical outcome the same way?"
+        ],
+        "mitigation": [
+            "Conduct honest post-mortems after both successes and failures",
+            "Seek candid feedback from trusted advisors",
+            "Apply the same attribution standards to yourself as to others"
+        ],
+        "severity": "medium",
+        "frequency": "very_common",
+        "related_items": [
+            "fundamental_attribution_error",
+            "in_group_bias",
+            "just_world_hypothesis"
+        ],
+        "tags": [
+            "self_assessment",
+            "attribution",
+            "accountability"
+        ]
+    },
+    {
+        "id": "backfire_effect",
+        "name": "Backfire Effect",
+        "category": "reasoning",
+        "description": "When a person's core beliefs are challenged by contradictory evidence, they sometimes hold those beliefs even more strongly.",
+        "impact": "Makes rational persuasion with facts counterproductive, entrenches misinformation.",
+        "trigger_phrases": [
+            "I don't care what the evidence says",
+            "That just proves they're trying to deceive us",
+            "The more they deny it, the more I believe it"
+        ],
+        "argument_patterns": [
+            "Belief B challenged with evidence E → B strengthened rather than weakened",
+            "Counterargument perceived as attack on identity → defensive reinforcement of original belief"
+        ],
+        "counter_questions": [
+            "What evidence would genuinely change my mind on this?",
+            "Am I treating this as an attack on me personally rather than on an idea?",
+            "Can I separate my identity from this belief?"
+        ],
+        "mitigation": [
+            "Separate identity from beliefs",
+            "Engage with contrary views in a safe, low-stakes context",
+            "Focus on process-based persuasion rather than fact-dumping"
+        ],
+        "severity": "high",
+        "frequency": "common",
+        "related_items": [
+            "confirmation_bias",
+            "belief_bias",
+            "identity_protective_cognition"
+        ],
+        "tags": [
+            "persuasion",
+            "belief_change",
+            "identity"
+        ]
+    },
+    {
+        "id": "barnum_effect",
+        "name": "Barnum Effect",
+        "category": "self_assessment",
+        "description": "The tendency to accept vague, general statements as uniquely applicable to oneself.",
+        "impact": "Makes people susceptible to pseudoscience, horoscopes, cold readings, and manipulative flattery.",
+        "trigger_phrases": [
+            "You are a person who sometimes...",
+            "At times you feel...",
+            "People see you as..."
+        ],
+        "argument_patterns": [
+            "Vague statement V applies to almost everyone → person P accepts V as personally specific",
+            "Flattering generality F presented → received as unique insight into P"
+        ],
+        "counter_questions": [
+            "Would this statement apply equally to most people?",
+            "How specific and falsifiable is this claim about me?",
+            "Am I flattered into acceptance?"
+        ],
+        "mitigation": [
+            "Ask whether the statement is specific enough to be falsifiable",
+            "Test whether the description applies equally to others",
+            "Be skeptical of sources that seem to 'know you' without real information"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_items": [
+            "confirmation_bias",
+            "belief_bias"
+        ],
+        "tags": [
+            "pseudoscience",
+            "self_assessment",
+            "manipulation"
+        ]
+    },
+    {
+        "id": "groupthink",
+        "name": "Groupthink",
+        "category": "social",
+        "description": "The tendency for group cohesion and desire for conformity to override realistic appraisal of alternatives.",
+        "impact": "Leads to poor collective decisions, suppresses dissent, and creates false consensus in teams and organizations.",
+        "trigger_phrases": [
+            "We all agree on this, right?",
+            "Let's not rock the boat",
+            "Everyone on the team is on board"
+        ],
+        "argument_patterns": [
+            "Group consensus C desired → dissenting view D suppressed → poor decision reinforced",
+            "Social pressure P to conform → rational alternatives not considered"
+        ],
+        "counter_questions": [
+            "Have we genuinely considered alternatives?",
+            "Is anyone holding back their true opinion?",
+            "What would a devil's advocate say?"
+        ],
+        "mitigation": [
+            "Assign a formal devil's advocate role",
+            "Collect opinions anonymously before group discussion",
+            "Encourage structured dissent and pre-mortem analysis"
+        ],
+        "severity": "high",
+        "frequency": "common",
+        "related_items": [
+            "bandwagon",
+            "conformity_bias",
+            "in_group_bias"
+        ],
+        "tags": [
+            "group_dynamics",
+            "decision_making",
+            "leadership"
+        ]
+    },
+    {
+        "id": "negativity_bias",
+        "name": "Negativity Bias",
+        "category": "emotional",
+        "description": "The tendency to give more weight to negative experiences or information than positive ones of equal magnitude.",
+        "impact": "Distorts risk perception, harms relationships and well-being, leads to overly cautious or fearful decisions.",
+        "trigger_phrases": [
+            "But what about all the times it went wrong?",
+            "One mistake erases all the good work",
+            "I can't stop thinking about that criticism"
+        ],
+        "argument_patterns": [
+            "One negative event N outweighs many positive events P in memory and judgment",
+            "Potential loss L weighted more heavily than equivalent potential gain G"
+        ],
+        "counter_questions": [
+            "Am I giving equal weight to positive and negative evidence?",
+            "Would I make a different decision if I only focused on potential gains?",
+            "How often do the feared negative outcomes actually occur?"
+        ],
+        "mitigation": [
+            "Use pro-and-con lists to force balanced evaluation",
+            "Actively practice gratitude and cataloging of positive events",
+            "Use probabilistic thinking to assess realistic outcomes"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_items": [
+            "sunk_cost_fallacy",
+            "pessimism_bias",
+            "availability_heuristic"
+        ],
+        "tags": [
+            "emotional_reasoning",
+            "risk",
+            "well_being"
+        ]
+    },
+    {
+        "id": "declinism",
+        "name": "Declinism",
+        "category": "temporal",
+        "description": "The tendency to view the past as better than it was and the future as worse than it is likely to be.",
+        "impact": "Leads to poor long-term planning, resistance to change, and susceptibility to 'golden age' narratives.",
+        "trigger_phrases": [
+            "Things were better back then",
+            "Society is going downhill",
+            "The world is getting worse every day"
+        ],
+        "argument_patterns": [
+            "Idealized past P vs. flawed present → resist progress",
+            "Selective memory M of good past events → present appears comparatively worse"
+        ],
+        "counter_questions": [
+            "What objective metrics can I use to compare past and present?",
+            "Am I remembering the past selectively?",
+            "What concrete improvements have occurred over time?"
+        ],
+        "mitigation": [
+            "Consult long-term data on measurable outcomes (life expectancy, poverty, literacy)",
+            "Distinguish between nostalgia and factual historical comparison",
+            "Seek out balanced historical accounts rather than idealized narratives"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_items": [
+            "negativity_bias",
+            "nostalgia_bias"
+        ],
+        "tags": [
+            "temporal_reasoning",
+            "history",
+            "change"
+        ]
+    },
+    {
+        "id": "framing_effect",
+        "name": "Framing Effect",
+        "category": "decision_making",
+        "description": "The tendency to draw different conclusions from the same information depending on how it is presented.",
+        "impact": "Makes individuals susceptible to manipulation through word choice, context, and presentation order.",
+        "trigger_phrases": [
+            "90% survival rate vs. 10% mortality rate",
+            "You'll save $10 vs. you'll lose $10",
+            "Half full vs. half empty"
+        ],
+        "argument_patterns": [
+            "Same fact F presented positively → different decision than F presented negatively",
+            "Loss framing L triggers more caution than equivalent gain framing G"
+        ],
+        "counter_questions": [
+            "How would I react if this were presented differently?",
+            "Am I responding to the frame or the underlying facts?",
+            "Can I restate this in a neutral way?"
+        ],
+        "mitigation": [
+            "Reframe information multiple ways before deciding",
+            "Focus on underlying data rather than the presentation",
+            "Be aware of how advertisers and politicians use framing deliberately"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_items": [
+            "anchoring",
+            "sunk_cost_fallacy",
+            "priming"
+        ],
+        "tags": [
+            "communication",
+            "persuasion",
+            "decision_making"
+        ]
+    },
+    {
+        "id": "fundamental_attribution_error",
+        "name": "Fundamental Attribution Error",
+        "category": "social",
+        "description": "The tendency to attribute other people's actions to their character while attributing your own actions to situational factors.",
+        "impact": "Creates unfair judgments of others and prevents empathy and understanding in social situations.",
+        "trigger_phrases": [
+            "They did that because they're just that kind of person",
+            "She's always like that",
+            "He must be lazy / rude / incompetent"
+        ],
+        "argument_patterns": [
+            "Person P does action A → A attributed to P's character, ignoring situational context",
+            "Self does action A → A attributed to circumstances, not character"
+        ],
+        "counter_questions": [
+            "What situational factors might explain their behavior?",
+            "Would I behave differently in exactly the same situation?",
+            "Am I applying the same standards to them as to myself?"
+        ],
+        "mitigation": [
+            "Consider situational explanations before forming character judgments",
+            "Ask about the context before concluding",
+            "Practice perspective-taking and empathy"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_items": [
+            "self_serving_bias",
+            "halo_effect",
+            "in_group_bias"
+        ],
+        "tags": [
+            "social_perception",
+            "attribution",
+            "empathy"
+        ]
+    },
+    {
+        "id": "halo_effect",
+        "name": "Halo Effect",
+        "category": "social",
+        "description": "The tendency for a positive impression in one area to positively influence opinions in unrelated areas.",
+        "impact": "Causes biased hiring, performance reviews, and purchasing decisions based on irrelevant attractive qualities.",
+        "trigger_phrases": [
+            "She's so impressive in X, she must be great at Y too",
+            "He seems trustworthy, so his business idea must be sound",
+            "They're attractive, so they must be competent"
+        ],
+        "argument_patterns": [
+            "Positive trait T in domain D1 → assumed positive trait in unrelated domain D2",
+            "First positive impression I → subsequent judgments biased positively regardless of evidence"
+        ],
+        "counter_questions": [
+            "Am I evaluating this specific trait on its own merits?",
+            "Would I judge this person the same if I disliked them overall?",
+            "What evidence do I have for this particular quality?"
+        ],
+        "mitigation": [
+            "Evaluate traits and decisions in isolation using structured criteria",
+            "Use blind evaluation processes where possible",
+            "Actively seek evidence that contradicts your overall impression"
+        ],
+        "severity": "medium",
+        "frequency": "very_common",
+        "related_items": [
+            "fundamental_attribution_error",
+            "beauty_bias",
+            "horn_effect"
+        ],
+        "tags": [
+            "hiring",
+            "social_perception",
+            "judgment"
+        ]
+    },
+    {
+        "id": "optimism_bias",
+        "name": "Optimism Bias",
+        "category": "self_assessment",
+        "description": "The tendency to overestimate the likelihood of positive outcomes and underestimate the likelihood of negative outcomes.",
+        "impact": "Leads to underestimation of risks, poor planning for downside scenarios, and overconfident decision-making.",
+        "trigger_phrases": [
+            "I'm sure it'll work out fine",
+            "That won't happen to me",
+            "I'll be the exception"
+        ],
+        "argument_patterns": [
+            "Future event E possible → own probability of E underestimated if E is negative",
+            "Own chances of success overestimated relative to base rates"
+        ],
+        "counter_questions": [
+            "What does the base rate suggest about outcomes in similar situations?",
+            "Am I accounting adequately for potential downsides?",
+            "What would a pessimist say about this plan?"
+        ],
+        "mitigation": [
+            "Use base rates and reference class forecasting",
+            "Conduct pre-mortem analysis (imagine failure and work backwards)",
+            "Balance optimism with scenario planning for negative outcomes"
+        ],
+        "severity": "medium",
+        "frequency": "very_common",
+        "related_items": [
+            "dunning_kruger_effect",
+            "dunning_kruger_effect",
+            "dunning_kruger_effect"
+        ],
+        "tags": [
+            "risk",
+            "planning",
+            "self_assessment"
+        ]
+    },
+    {
+        "id": "pessimism_bias",
+        "name": "Pessimism Bias",
+        "category": "self_assessment",
+        "description": "The tendency to overestimate the likelihood of negative outcomes and underestimate the likelihood of positive ones.",
+        "impact": "Leads to excessive risk aversion, missed opportunities, anxiety, and self-fulfilling negative outcomes.",
+        "trigger_phrases": [
+            "Something will go wrong",
+            "There's no point in trying",
+            "It'll never work for me"
+        ],
+        "argument_patterns": [
+            "Future event E possible → own probability of E overestimated if E is negative",
+            "Success scenario underweighted → missed opportunities"
+        ],
+        "counter_questions": [
+            "What is the actual statistical probability of a negative outcome?",
+            "Am I avoiding opportunities due to imagined downsides?",
+            "Have I considered the costs of inaction?"
+        ],
+        "mitigation": [
+            "Track predictions and compare to outcomes to calibrate pessimism",
+            "Consider the cost of excessive caution alongside the cost of risk",
+            "Use cognitive-behavioral techniques to challenge catastrophic thinking"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_items": [
+            "negativity_bias",
+            "sunk_cost_fallacy",
+            "anxiety"
+        ],
+        "tags": [
+            "risk_aversion",
+            "motivation",
+            "well_being"
+        ]
+    },
+    {
+        "id": "just_world_hypothesis",
+        "name": "Just-World Hypothesis",
+        "category": "social",
+        "description": "The assumption that the world is fundamentally fair and people get what they deserve.",
+        "impact": "Leads to victim blaming, reduced empathy, and complacency in the face of systemic injustice.",
+        "trigger_phrases": [
+            "They must have done something to deserve it",
+            "Good things happen to good people",
+            "If they worked harder, they'd be better off"
+        ],
+        "argument_patterns": [
+            "Negative outcome O happened to person P → P must have deserved O",
+            "World W perceived as fair → systemic causes of inequality ignored"
+        ],
+        "counter_questions": [
+            "What structural or situational factors contributed to this outcome?",
+            "Can I think of cases where clearly good people experienced bad outcomes?",
+            "Am I blaming the victim to avoid confronting an unfair system?"
+        ],
+        "mitigation": [
+            "Seek structural and contextual explanations alongside personal ones",
+            "Learn about systemic inequalities and random variance in outcomes",
+            "Practice perspective-taking with those who face different circumstances"
+        ],
+        "severity": "high",
+        "frequency": "common",
+        "related_items": [
+            "fundamental_attribution_error",
+            "self_serving_bias",
+            "in_group_bias"
+        ],
+        "tags": [
+            "social_justice",
+            "empathy",
+            "attribution"
+        ]
+    },
+    {
+        "id": "in_group_bias",
+        "name": "In-Group Bias",
+        "category": "social",
+        "description": "The tendency to favor members of one's own group over members of other groups.",
+        "impact": "Creates unfair advantages for in-group members in hiring, trust, and resource allocation while disadvantaging out-groups.",
+        "trigger_phrases": [
+            "We take care of our own",
+            "People like us understand",
+            "They're not one of us"
+        ],
+        "argument_patterns": [
+            "Person P belongs to same group G → P given benefit of the doubt",
+            "Person Q belongs to out-group → Q subject to more scrutiny and less trust"
+        ],
+        "counter_questions": [
+            "Would I judge this person the same if they were not in my group?",
+            "Am I giving credit based on group membership rather than merit?",
+            "What would I think of this behavior if an out-group member did it?"
+        ],
+        "mitigation": [
+            "Use blind evaluation processes for hiring and awards",
+            "Actively build relationships across group boundaries",
+            "Apply consistent standards regardless of group membership"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_items": [
+            "fundamental_attribution_error",
+            "halo_effect",
+            "tribalism"
+        ],
+        "tags": [
+            "tribalism",
+            "fairness",
+            "social_identity"
+        ]
+    },
+    {
+        "id": "placebo_effect",
+        "name": "Placebo Effect",
+        "category": "perception",
+        "description": "The tendency for inert treatments to produce real, measurable effects due to the power of expectation and belief.",
+        "impact": "Can lead to acceptance of ineffective treatments and make evaluation of interventions unreliable without controls.",
+        "trigger_phrases": [
+            "I took it and felt better immediately",
+            "It worked for me, so it must work",
+            "Natural remedies always help"
+        ],
+        "argument_patterns": [
+            "Inert treatment T administered → real improvement I experienced → T credited with causing I",
+            "Expectation of improvement E → actual physiological improvement regardless of mechanism"
+        ],
+        "counter_questions": [
+            "Is this improvement due to the treatment or to my expectation?",
+            "Has this treatment been tested against a proper placebo control?",
+            "Would I have improved anyway without any treatment?"
+        ],
+        "mitigation": [
+            "Require randomized controlled trials before accepting medical claims",
+            "Be skeptical of testimonial-based evidence",
+            "Distinguish between subjective experience and objective measured outcomes"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_items": [
+            "confirmation_bias",
+            "belief_bias"
+        ],
+        "tags": [
+            "medicine",
+            "perception",
+            "evidence"
+        ]
+    },
+    {
+        "id": "bystander_effect",
+        "name": "Bystander Effect",
+        "category": "social",
+        "description": "The tendency for individuals to be less likely to offer help in an emergency when others are present.",
+        "impact": "Reduces emergency response rates, diffuses moral responsibility, and can lead to harm through inaction.",
+        "trigger_phrases": [
+            "Someone else will handle it",
+            "There are plenty of other people here",
+            "Why should I be the one to step in?"
+        ],
+        "argument_patterns": [
+            "Emergency E occurs with crowd C present → each individual assumes another will act → no one acts",
+            "Diffusion of responsibility: many observers → individual responsibility diluted"
+        ],
+        "counter_questions": [
+            "If I don't act, who will?",
+            "Am I assuming someone else has already handled this?",
+            "Would I act if I were the only one present?"
+        ],
+        "mitigation": [
+            "Overcome diffusion by making a specific request to a specific person",
+            "Recognize the bystander effect and consciously override it",
+            "Train in emergency response to build default action habits"
+        ],
+        "severity": "high",
+        "frequency": "common",
+        "related_items": [
+            "diffusion_of_responsibility",
+            "conformity_bias"
+        ],
+        "tags": [
+            "social_influence",
+            "emergency",
+            "moral_responsibility"
+        ]
+    },
+    {
+        "id": "reactance",
+        "name": "Reactance",
+        "category": "motivational",
+        "description": "The urge to do the opposite of what someone is trying to make you do when you feel your freedom is being restricted.",
+        "impact": "Makes people resist beneficial advice, rules, or decisions purely because they feel coerced, even when the advice is correct.",
+        "trigger_phrases": [
+            "You have to do this",
+            "You're not allowed to...",
+            "You must comply"
+        ],
+        "argument_patterns": [
+            "Directive D perceived as freedom constraint → opposite behavior O adopted",
+            "Persuasion attempt P perceived as manipulation → resistance R increased"
+        ],
+        "counter_questions": [
+            "Am I resisting because of rational objection or just because I feel controlled?",
+            "Would I make this choice freely if no one was pushing me?",
+            "What is my genuine preference when I remove the pressure?"
+        ],
+        "mitigation": [
+            "Present choices rather than directives",
+            "Provide autonomy and rationale when persuading",
+            "Recognize when your resistance is driven by reactance rather than reason"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_items": [
+            "conformity_bias",
+            "backfire_effect"
+        ],
+        "tags": [
+            "autonomy",
+            "persuasion",
+            "motivation"
+        ]
+    },
+    {
+        "id": "spotlight_effect",
+        "name": "Spotlight Effect",
+        "category": "self_assessment",
+        "description": "The tendency to overestimate how much others notice and pay attention to one's appearance and behavior.",
+        "impact": "Causes excessive self-consciousness, social anxiety, and inhibits authentic self-expression.",
+        "trigger_phrases": [
+            "Everyone noticed that mistake I made",
+            "They're all looking at me",
+            "I can't let anyone see me like this"
+        ],
+        "argument_patterns": [
+            "Own appearance/action A salient to self → A assumed equally salient to others",
+            "Others' attention overestimated → excessive self-monitoring and anxiety"
+        ],
+        "counter_questions": [
+            "What percentage of people actually noticed this?",
+            "How much attention do I give to others' minor mistakes?",
+            "Would this matter to me in a week?"
+        ],
+        "mitigation": [
+            "Recognize that others are similarly preoccupied with their own concerns",
+            "Focus on how you make others feel rather than how you appear",
+            "Conduct reality checks by asking trusted friends"
+        ],
+        "severity": "medium",
+        "frequency": "very_common",
+        "related_items": [
+            "self_consciousness",
+            "social_anxiety",
+            "self_serving_bias"
+        ],
+        "tags": [
+            "self_consciousness",
+            "social_anxiety",
+            "self_perception"
+        ]
+    }
+]

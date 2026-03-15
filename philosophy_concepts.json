@@ -1,0 +1,869 @@
+[
+    {
+        "id": "socratic_method",
+        "name": "Socratic Method",
+        "branch": "epistemology",
+        "description": "A form of cooperative argumentative dialogue based on asking and answering questions to stimulate critical thinking and illuminate ideas, attributed to Socrates.",
+        "key_questions": [
+            "What do you mean by that?",
+            "How do you know that is true?",
+            "What evidence supports your view?",
+            "What are you assuming?",
+            "What would be a counterexample?",
+            "What are the implications of your claim?"
+        ],
+        "key_thinkers": [
+            "Socrates",
+            "Plato",
+            "John Dewey"
+        ],
+        "core_arguments": [
+            "True knowledge requires rigorous self-examination and question-and-answer dialogue",
+            "Wisdom begins with recognizing the limits of one's own knowledge",
+            "Definitions must withstand logical scrutiny to be valid",
+            "Education is drawing out latent knowledge (elenchus), not simply depositing information"
+        ],
+        "practical_applications": [
+            "Teaching and tutoring through guided questioning rather than direct instruction",
+            "Legal cross-examination to expose contradictions in testimony",
+            "Design thinking facilitation to surface hidden assumptions",
+            "Coaching conversations that help clients discover their own answers"
+        ],
+        "related_concepts": [
+            "dialectical_thinking",
+            "critical_thinking",
+            "epistemology",
+            "aporia"
+        ],
+        "tags": [
+            "dialogue",
+            "epistemology",
+            "education",
+            "critical_thinking"
+        ]
+    },
+    {
+        "id": "epistemology",
+        "name": "Epistemology",
+        "branch": "epistemology",
+        "description": "The branch of philosophy concerned with the nature, sources, limits, and justification of knowledge — addressing questions of what we can know and how we can know it.",
+        "key_questions": [
+            "What is knowledge?",
+            "How is knowledge acquired?",
+            "What are the limits of human knowledge?",
+            "Is certainty ever achievable?",
+            "What distinguishes justified belief from mere opinion?"
+        ],
+        "key_thinkers": [
+            "Plato",
+            "René Descartes",
+            "John Locke",
+            "David Hume",
+            "Immanuel Kant",
+            "Edmund Gettier",
+            "W.V.O. Quine"
+        ],
+        "core_arguments": [
+            "Justified True Belief (Plato): knowledge is belief that is both true and justified",
+            "Cartesian skepticism: only cogito ergo sum is immune to doubt",
+            "Empiricism (Locke/Hume): all knowledge derives from sensory experience",
+            "Rationalism (Descartes/Leibniz): some knowledge is innate or derived through reason alone",
+            "Critical philosophy (Kant): mind actively structures experience; we can only know phenomena, not things-in-themselves",
+            "Gettier problem: justified true belief is insufficient for knowledge — counterexamples exist"
+        ],
+        "practical_applications": [
+            "Evaluating the reliability of sources and information",
+            "Designing systems of evidence and peer review in science",
+            "Legal standards of proof (beyond reasonable doubt, balance of probabilities)",
+            "Designing AI systems and assessing the reliability of machine-generated knowledge"
+        ],
+        "related_concepts": [
+            "socratic_method",
+            "scientific_method",
+            "pragmatism",
+            "falsifiability"
+        ],
+        "tags": [
+            "knowledge",
+            "certainty",
+            "justification",
+            "science"
+        ]
+    },
+    {
+        "id": "ethics_consequentialism",
+        "name": "Consequentialism",
+        "branch": "ethics",
+        "description": "The moral theory that the rightness or wrongness of an action is determined entirely by its outcomes — the best action is the one that produces the best consequences.",
+        "key_questions": [
+            "What outcomes does this action produce?",
+            "For whom are the consequences evaluated?",
+            "How do we measure and compare well-being or harm?",
+            "How do we handle uncertainty about future consequences?",
+            "Are consequences that benefit the many worth harms to the few?"
+        ],
+        "key_thinkers": [
+            "Jeremy Bentham",
+            "John Stuart Mill",
+            "Peter Singer",
+            "Henry Sidgwick"
+        ],
+        "core_arguments": [
+            "Utilitarianism (Bentham): the right action maximizes total happiness (the greatest good for the greatest number)",
+            "Rule consequentialism: follow rules that generally produce good consequences rather than calculating outcomes for each act",
+            "Preference utilitarianism (Singer): maximize satisfaction of preferences rather than happiness",
+            "Impartiality: all affected parties' well-being counts equally regardless of identity"
+        ],
+        "practical_applications": [
+            "Cost-benefit analysis in policy making",
+            "Triage ethics in medicine and disaster response",
+            "Effective altruism movement in charitable giving",
+            "AI alignment: defining objective functions that maximize human welfare"
+        ],
+        "related_concepts": [
+            "ethics_deontology",
+            "ethics_virtue",
+            "utilitarianism",
+            "moral_philosophy"
+        ],
+        "tags": [
+            "ethics",
+            "morality",
+            "decision_making",
+            "utilitarianism"
+        ]
+    },
+    {
+        "id": "ethics_deontology",
+        "name": "Deontology",
+        "branch": "ethics",
+        "description": "The moral theory that actions are intrinsically right or wrong based on rules, duties, and rights — independent of their consequences.",
+        "key_questions": [
+            "What is my duty in this situation?",
+            "Does this action respect the rights of all persons involved?",
+            "Would I be willing for this action to become a universal law?",
+            "Am I treating persons as ends in themselves, not merely as means?"
+        ],
+        "key_thinkers": [
+            "Immanuel Kant",
+            "W.D. Ross",
+            "John Rawls",
+            "Thomas Nagel"
+        ],
+        "core_arguments": [
+            "Categorical Imperative (Kant): act only according to maxims you could universalize as laws",
+            "Humanity Formula (Kant): always treat persons as ends in themselves, never merely as means",
+            "Prima facie duties (Ross): multiple duties can conflict; the stronger duty determines right action",
+            "Rights-based constraints: some actions are impermissible regardless of good outcomes they might produce"
+        ],
+        "practical_applications": [
+            "Medical ethics: patient autonomy and informed consent regardless of outcome",
+            "Legal rights: due process protections that cannot be overridden by utilitarian calculations",
+            "Business ethics: honesty obligations to stakeholders",
+            "AI ethics: hard constraints that AI systems must never violate regardless of objective scores"
+        ],
+        "related_concepts": [
+            "ethics_consequentialism",
+            "ethics_virtue",
+            "rights",
+            "categorical_imperative"
+        ],
+        "tags": [
+            "ethics",
+            "duty",
+            "rights",
+            "morality"
+        ]
+    },
+    {
+        "id": "ethics_virtue",
+        "name": "Virtue Ethics",
+        "branch": "ethics",
+        "description": "The moral theory that focuses on the character of the agent rather than the rules governing actions or their outcomes — asking 'What kind of person should I be?' rather than 'What should I do?'",
+        "key_questions": [
+            "What would a person of good character do?",
+            "Am I developing virtues through my habitual choices?",
+            "What virtues does this situation call for?",
+            "What does human flourishing (eudaimonia) look like in this context?"
+        ],
+        "key_thinkers": [
+            "Aristotle",
+            "Thomas Aquinas",
+            "Alasdair MacIntyre",
+            "Philippa Foot",
+            "Rosalind Hursthouse"
+        ],
+        "core_arguments": [
+            "Eudaimonia (Aristotle): the good life is one of flourishing through the exercise of virtues",
+            "Virtues are stable character traits (courage, honesty, justice, temperance) developed through practice",
+            "The doctrine of the mean: virtues lie between extremes of excess and deficiency",
+            "Moral wisdom (phronesis) is the master virtue that guides the application of all others"
+        ],
+        "practical_applications": [
+            "Character-based leadership development",
+            "Medical professionalism centered on virtues of compassion, integrity, and competence",
+            "Role modeling and mentorship as central to moral education",
+            "AI alignment: building systems with virtuous behavioral dispositions rather than just rule compliance"
+        ],
+        "related_concepts": [
+            "ethics_consequentialism",
+            "ethics_deontology",
+            "stoicism",
+            "eudaimonia"
+        ],
+        "tags": [
+            "ethics",
+            "character",
+            "flourishing",
+            "morality"
+        ]
+    },
+    {
+        "id": "stoicism",
+        "name": "Stoicism",
+        "branch": "ethics",
+        "description": "An ancient Greek and Roman philosophy teaching that virtue is the highest good, that one should focus on what is within one's control, and that negative emotions result from faulty judgments about external events.",
+        "key_questions": [
+            "Is this within my control or outside it?",
+            "Am I disturbed by the event itself or by my judgment about it?",
+            "What is the virtuous response in this situation?",
+            "Am I acting in accordance with reason and nature?"
+        ],
+        "key_thinkers": [
+            "Zeno of Citium",
+            "Epictetus",
+            "Marcus Aurelius",
+            "Seneca",
+            "Chrysippus"
+        ],
+        "core_arguments": [
+            "Dichotomy of control: some things are 'up to us' (judgments, desires, actions) and some are not (body, reputation, property); focus on the former",
+            "Virtue is the only true good; external things (wealth, health, reputation) are 'preferred indifferents'",
+            "Negative emotions (passions) are caused by false value judgments that can be corrected by reason",
+            "Memento mori and negative visualization: contemplating loss makes us appreciate what we have",
+            "The cosmopolitan ideal: all rational beings belong to a single moral community"
+        ],
+        "practical_applications": [
+            "Cognitive-behavioral therapy (CBT) builds directly on Stoic principles",
+            "Resilience training in military and first-responder contexts",
+            "Distinguishing between response and stimulus in leadership",
+            "Managing anxiety by separating the controllable from the uncontrollable"
+        ],
+        "related_concepts": [
+            "ethics_virtue",
+            "cognitive_reframing",
+            "mindfulness",
+            "dialectical_thinking"
+        ],
+        "tags": [
+            "resilience",
+            "ethics",
+            "well_being",
+            "ancient_philosophy"
+        ]
+    },
+    {
+        "id": "pragmatism",
+        "name": "Pragmatism",
+        "branch": "epistemology",
+        "description": "The philosophical tradition holding that the truth or meaning of an idea is determined by its practical consequences — ideas are tools for solving problems, not mirrors of a fixed reality.",
+        "key_questions": [
+            "What practical difference would this idea make if it were true?",
+            "Does this belief work — does it lead to successful action?",
+            "What are the consequences of adopting this framework?",
+            "What does experience tell us about how to proceed?"
+        ],
+        "key_thinkers": [
+            "Charles Sanders Peirce",
+            "William James",
+            "John Dewey",
+            "Richard Rorty"
+        ],
+        "core_arguments": [
+            "Meaning is determined by practical consequences — ideas that make no practical difference have no meaning",
+            "Truth is 'what works' — what leads to successful prediction and action",
+            "Knowledge is fallible and provisional; what is 'true' may change as experience evolves",
+            "Inquiry is problem-solving: philosophy should address real human problems, not abstract puzzles"
+        ],
+        "practical_applications": [
+            "Evidence-based policy: adopt what works based on empirical testing",
+            "Agile software development: prefer working solutions over comprehensive planning",
+            "Design thinking: prototype and test rather than theorize",
+            "Organizational learning through experimentation and adaptation"
+        ],
+        "related_concepts": [
+            "epistemology",
+            "falsifiability",
+            "scientific_method",
+            "instrumentalism"
+        ],
+        "tags": [
+            "epistemology",
+            "truth",
+            "problem_solving",
+            "science"
+        ]
+    },
+    {
+        "id": "existentialism",
+        "name": "Existentialism",
+        "branch": "metaphysics",
+        "description": "The philosophical movement emphasizing individual freedom, radical responsibility for one's choices, and the search for meaning in an inherently meaningless universe.",
+        "key_questions": [
+            "What am I making of myself through my choices?",
+            "Am I living authentically or in bad faith?",
+            "What gives my existence meaning?",
+            "What does it mean to be free when freedom implies total responsibility?"
+        ],
+        "key_thinkers": [
+            "Søren Kierkegaard",
+            "Friedrich Nietzsche",
+            "Martin Heidegger",
+            "Jean-Paul Sartre",
+            "Simone de Beauvoir",
+            "Albert Camus"
+        ],
+        "core_arguments": [
+            "Existence precedes essence (Sartre): humans have no fixed nature — we define ourselves through choices",
+            "Radical freedom: we are 'condemned to be free' and cannot escape responsibility for our choices",
+            "Authenticity: living according to one's own values rather than social conformity (bad faith)",
+            "The absurd (Camus): life has no inherent meaning, yet we must live as if it does",
+            "Anxiety as the mood of freedom: awareness of our freedom generates existential anxiety"
+        ],
+        "practical_applications": [
+            "Existential therapy and logotherapy (Viktor Frankl) helping patients find meaning",
+            "Leadership: taking radical ownership of decisions and their consequences",
+            "Cognitive reframing: recognizing that our responses to circumstances are always chosen",
+            "Authentic branding: organizational identity built on genuine values rather than performance"
+        ],
+        "related_concepts": [
+            "ethics_virtue",
+            "stoicism",
+            "phenomenology",
+            "absurdism"
+        ],
+        "tags": [
+            "freedom",
+            "meaning",
+            "authenticity",
+            "modern_philosophy"
+        ]
+    },
+    {
+        "id": "ontology",
+        "name": "Ontology",
+        "branch": "metaphysics",
+        "description": "The branch of metaphysics concerned with the nature of being, existence, and reality — what kinds of things exist and what it means for something to exist.",
+        "key_questions": [
+            "What exists?",
+            "What is the nature of existence?",
+            "Are abstract entities (numbers, properties) real?",
+            "What is the relationship between mind and world?",
+            "What categories of being are fundamental?"
+        ],
+        "key_thinkers": [
+            "Aristotle",
+            "René Descartes",
+            "G.W.F. Hegel",
+            "Martin Heidegger",
+            "Willard Van Orman Quine"
+        ],
+        "core_arguments": [
+            "Substance dualism (Descartes): mind and matter are distinct substances",
+            "Materialism/physicalism: only physical entities exist; mental states are physical states",
+            "Idealism (Hegel): reality is fundamentally mental or conceptual in nature",
+            "Quine's criterion: what exists is what our best scientific theories are committed to",
+            "Heidegger's Being question: asking what it means to be — the forgotten question of western philosophy"
+        ],
+        "practical_applications": [
+            "Ontology in computer science: formal specification of entities and relationships in a domain",
+            "Database design: defining what entities and relationships exist in an information system",
+            "AI knowledge representation: how AI systems model the world",
+            "Scientific realism debates: whether unobservable entities (electrons, quarks) truly exist"
+        ],
+        "related_concepts": [
+            "epistemology",
+            "metaphysics",
+            "philosophy_of_mind",
+            "realism"
+        ],
+        "tags": [
+            "metaphysics",
+            "being",
+            "existence",
+            "reality"
+        ]
+    },
+    {
+        "id": "philosophy_of_mind",
+        "name": "Philosophy of Mind",
+        "branch": "metaphysics",
+        "description": "The branch of philosophy exploring the nature of the mind, mental events, consciousness, and their relationship to the physical world, particularly the brain.",
+        "key_questions": [
+            "What is consciousness?",
+            "How does the physical brain give rise to subjective experience?",
+            "Do mental states reduce to physical states?",
+            "What is the nature of intentionality (aboutness)?",
+            "Is there genuine free will?"
+        ],
+        "key_thinkers": [
+            "René Descartes",
+            "Gilbert Ryle",
+            "Daniel Dennett",
+            "David Chalmers",
+            "John Searle",
+            "Thomas Nagel"
+        ],
+        "core_arguments": [
+            "Hard problem of consciousness (Chalmers): explaining why physical processes give rise to subjective experience remains unexplained",
+            "Functionalism: mental states are defined by their functional roles, not their physical substrate",
+            "Eliminative materialism (Dennett): folk psychological concepts like 'beliefs' may not refer to real entities",
+            "Chinese Room Argument (Searle): syntactic manipulation does not produce semantic understanding or true intelligence",
+            "Nagel's 'What is it like to be a bat?': subjective experience cannot be captured by objective description"
+        ],
+        "practical_applications": [
+            "Artificial intelligence: understanding what genuine understanding or consciousness would require",
+            "Neuroscience and psychiatry: grounding mental health treatment in a coherent theory of mind",
+            "Legal responsibility: consciousness and intentionality as grounds for moral/legal accountability",
+            "Designing human-computer interaction that respects the nature of human cognition"
+        ],
+        "related_concepts": [
+            "ontology",
+            "epistemology",
+            "ethics_consequentialism",
+            "free_will"
+        ],
+        "tags": [
+            "consciousness",
+            "cognition",
+            "AI",
+            "identity"
+        ]
+    },
+    {
+        "id": "dialectics",
+        "name": "Dialectics",
+        "branch": "logic",
+        "description": "A method of reasoning and discourse that involves the juxtaposition of contradictory ideas and the resolution of their tension into a higher-level synthesis.",
+        "key_questions": [
+            "What is the contradiction inherent in this position?",
+            "What forces or arguments stand in opposition?",
+            "How can the tension between thesis and antithesis be resolved at a higher level?",
+            "What new contradictions does the synthesis generate?"
+        ],
+        "key_thinkers": [
+            "Heraclitus",
+            "Socrates",
+            "Plato",
+            "G.W.F. Hegel",
+            "Karl Marx"
+        ],
+        "core_arguments": [
+            "Hegelian dialectics: thesis → antithesis → synthesis drives the development of ideas and history",
+            "Socratic dialectic: dialogue between opposing positions as the engine of discovering truth",
+            "Marx's dialectical materialism: material contradictions in society drive historical change",
+            "Contradiction is not a sign of error but the engine of intellectual and historical progress"
+        ],
+        "practical_applications": [
+            "Structured debate formats that pit positions against each other to generate insight",
+            "Dialectical behavior therapy (DBT): balancing acceptance and change",
+            "Organizational change management: working through contradictions between old and new systems",
+            "Research methodologies that build knowledge through challenging and refining prior findings"
+        ],
+        "related_concepts": [
+            "socratic_method",
+            "dialectical_thinking",
+            "logic",
+            "critical_theory"
+        ],
+        "tags": [
+            "logic",
+            "reasoning",
+            "history_of_philosophy",
+            "synthesis"
+        ]
+    },
+    {
+        "id": "falsifiability",
+        "name": "Falsifiability",
+        "branch": "epistemology",
+        "description": "The principle, proposed by Karl Popper, that a theory or claim is scientific only if it can in principle be shown to be false by an observable test.",
+        "key_questions": [
+            "What observable outcome would prove this theory false?",
+            "Has this claim been subjected to serious attempts at falsification?",
+            "Is this claim constructed to be immune to refutation?",
+            "What is the difference between a scientific and non-scientific claim?"
+        ],
+        "key_thinkers": [
+            "Karl Popper",
+            "Thomas Kuhn",
+            "Imre Lakatos",
+            "Paul Feyerabend"
+        ],
+        "core_arguments": [
+            "Falsifiability as the criterion of scientific demarcation: unfalsifiable claims are metaphysical, not scientific",
+            "Science proceeds by bold conjecture and rigorous attempted refutation, not by induction",
+            "A theory that explains everything explains nothing — it is immune to revision by evidence",
+            "Verisimilitude: scientific theories progress by increasing in truth-likeness, even while remaining fallible"
+        ],
+        "practical_applications": [
+            "Distinguishing science from pseudoscience in policy and education",
+            "Designing valid experiments with clear, pre-specified criteria for failure",
+            "Pre-registration of studies to prevent post-hoc rationalization",
+            "Evaluating AI and machine learning models: specifying what evidence would indicate failure"
+        ],
+        "related_concepts": [
+            "epistemology",
+            "scientific_method",
+            "pragmatism",
+            "occams_razor"
+        ],
+        "tags": [
+            "science",
+            "epistemology",
+            "critical_thinking",
+            "methodology"
+        ]
+    },
+    {
+        "id": "social_contract",
+        "name": "Social Contract Theory",
+        "branch": "political",
+        "description": "The view that political authority and moral obligations arise from an actual or hypothetical agreement among individuals to form a cooperative society.",
+        "key_questions": [
+            "What would rational individuals agree to in the original position?",
+            "What obligations do citizens owe the state, and the state owe citizens?",
+            "Is political authority legitimate and on what basis?",
+            "What rights are inalienable and cannot be surrendered by any contract?"
+        ],
+        "key_thinkers": [
+            "Thomas Hobbes",
+            "John Locke",
+            "Jean-Jacques Rousseau",
+            "John Rawls"
+        ],
+        "core_arguments": [
+            "Hobbes: without government, life is 'solitary, poor, nasty, brutish, and short'; people contract into absolute sovereignty for security",
+            "Locke: government derives authority from the consent of the governed; people retain natural rights that limit government power",
+            "Rousseau: the general will expresses the common good; legitimate authority requires direct democratic participation",
+            "Rawls: principles of justice are those rational agents would choose behind a veil of ignorance about their social position"
+        ],
+        "practical_applications": [
+            "Constitutional design and the limits of state power",
+            "Justifying taxation, law, and civic obligations",
+            "Corporate governance and the obligations of companies to stakeholders",
+            "AI governance: what rules and authorities should govern the development and deployment of AI"
+        ],
+        "related_concepts": [
+            "ethics_deontology",
+            "political_philosophy",
+            "rights",
+            "justice"
+        ],
+        "tags": [
+            "political_philosophy",
+            "justice",
+            "governance",
+            "rights"
+        ]
+    },
+    {
+        "id": "phenomenology",
+        "name": "Phenomenology",
+        "branch": "metaphysics",
+        "description": "The philosophical study of the structures of conscious experience from the first-person perspective, focusing on how phenomena appear to consciousness.",
+        "key_questions": [
+            "What is the structure of this experience as it appears to consciousness?",
+            "What is always already implied in the act of perceiving or thinking?",
+            "How does consciousness constitute its objects?",
+            "What are the preconditions for meaning and experience?"
+        ],
+        "key_thinkers": [
+            "Edmund Husserl",
+            "Martin Heidegger",
+            "Maurice Merleau-Ponty",
+            "Jean-Paul Sartre",
+            "Simone de Beauvoir"
+        ],
+        "core_arguments": [
+            "Intentionality (Husserl): all consciousness is consciousness of something — the mind is always directed outward",
+            "The lifeworld: the pre-theoretical background of lived experience that underlies all scientific theorizing",
+            "Being-in-the-world (Heidegger): human existence is fundamentally embedded in a world of practical engagement",
+            "Embodied cognition (Merleau-Ponty): the body is not an object but the subject of experience"
+        ],
+        "practical_applications": [
+            "User experience design: understanding the lived experience of users rather than just observed behavior",
+            "Qualitative research methods in social sciences",
+            "Mindfulness-based therapies that focus on direct experience",
+            "AI empathy design: building systems sensitive to the phenomenological dimensions of human experience"
+        ],
+        "related_concepts": [
+            "ontology",
+            "philosophy_of_mind",
+            "existentialism",
+            "embodied_cognition"
+        ],
+        "tags": [
+            "consciousness",
+            "experience",
+            "modern_philosophy",
+            "psychology"
+        ]
+    },
+    {
+        "id": "philosophy_of_language",
+        "name": "Philosophy of Language",
+        "branch": "logic",
+        "description": "The branch of philosophy examining the nature of language, meaning, reference, and the relationship between language and reality.",
+        "key_questions": [
+            "What is the relationship between words and things?",
+            "How do sentences acquire meaning?",
+            "Is meaning in the speaker's intention, in the social use, or in the relationship to the world?",
+            "Can language distort or constitute reality, rather than merely describe it?"
+        ],
+        "key_thinkers": [
+            "Gottlob Frege",
+            "Bertrand Russell",
+            "Ludwig Wittgenstein",
+            "J.L. Austin",
+            "Noam Chomsky",
+            "Paul Grice"
+        ],
+        "core_arguments": [
+            "Sense and reference (Frege): the same object can have multiple senses; meaning is not just reference",
+            "Picture theory (early Wittgenstein): language pictures facts in the world",
+            "Language games (late Wittgenstein): meaning is use within social practices; no private language exists",
+            "Speech act theory (Austin): utterances can perform actions (promise, warn, declare) not just describe facts",
+            "Gricean maxims: cooperative communication governed by principles of quantity, quality, relation, and manner"
+        ],
+        "practical_applications": [
+            "Natural language processing and computational linguistics",
+            "Legal interpretation of statutes and contracts",
+            "Persuasion and rhetoric: how framing choices shape meaning",
+            "AI alignment: the challenges of specifying human values precisely in language"
+        ],
+        "related_concepts": [
+            "epistemology",
+            "logic",
+            "phenomenology",
+            "semiotics"
+        ],
+        "tags": [
+            "language",
+            "meaning",
+            "logic",
+            "communication"
+        ]
+    },
+    {
+        "id": "buddhism",
+        "name": "Buddhism",
+        "branch": "ethics",
+        "description": "An Indian philosophical and spiritual tradition centered on reducing suffering through ethical conduct, meditation, and wisdom about impermanence and non-self.",
+        "key_questions": [
+            "What causes suffering, and how can it cease?",
+            "How do attachment and craving shape human behavior?",
+            "What does it mean that the self is not fixed?",
+            "How should one cultivate compassion and mindfulness in daily life?"
+        ],
+        "key_thinkers": [
+            "Siddhartha Gautama (the Buddha)",
+            "Nagarjuna",
+            "Shantideva",
+            "Dogen",
+            "Thich Nhat Hanh"
+        ],
+        "core_arguments": [
+            "Four Noble Truths: suffering exists, has causes, can cease, and has a path for cessation",
+            "The Eightfold Path integrates ethics, mental discipline, and wisdom",
+            "Dependent origination: phenomena arise interdependently rather than as isolated substances",
+            "Anatta (non-self): clinging to a permanent self is a source of suffering"
+        ],
+        "practical_applications": [
+            "Mindfulness-based therapy and stress reduction",
+            "Compassion-centered leadership and conflict resolution",
+            "Ethical reflection on harm reduction and right livelihood",
+            "Daily meditation practices for emotional regulation"
+        ],
+        "related_concepts": [
+            "stoicism",
+            "ethics_virtue",
+            "phenomenology",
+            "philosophy_of_mind"
+        ],
+        "tags": [
+            "ethics",
+            "mindfulness",
+            "suffering",
+            "eastern_philosophy"
+        ]
+    },
+    {
+        "id": "daoism",
+        "name": "Daoism",
+        "branch": "metaphysics",
+        "description": "A Chinese philosophical tradition emphasizing harmony with the Dao, spontaneity, simplicity, and non-coercive action in personal and political life.",
+        "key_questions": [
+            "What does it mean to live in accord with the Dao?",
+            "When does deliberate control become counterproductive?",
+            "How can non-forcing (wu wei) produce effective action?",
+            "What social and political order best supports natural harmony?"
+        ],
+        "key_thinkers": [
+            "Laozi",
+            "Zhuangzi",
+            "Liezi",
+            "Wang Bi"
+        ],
+        "core_arguments": [
+            "The Dao is the generative source and pattern of the natural world",
+            "Wu wei (non-forcing): skilled action often comes from alignment, not domination",
+            "Artificial social distinctions can obscure deeper natural unity",
+            "Simplicity, humility, and flexibility are marks of wisdom"
+        ],
+        "practical_applications": [
+            "Leadership styles that reduce unnecessary control",
+            "Personal resilience through acceptance of change and uncertainty",
+            "Environmental ethics emphasizing balance with nature",
+            "Conflict de-escalation through soft but adaptive strategies"
+        ],
+        "related_concepts": [
+            "stoicism",
+            "ontology",
+            "phenomenology",
+            "ethics_virtue"
+        ],
+        "tags": [
+            "metaphysics",
+            "ethics",
+            "harmony",
+            "eastern_philosophy"
+        ]
+    },
+    {
+        "id": "bhagavad_gita",
+        "name": "Bhagavad Gita",
+        "branch": "ethics",
+        "description": "A foundational Indian philosophical scripture presenting a dialogue on duty, action, devotion, and liberation in the context of moral conflict.",
+        "key_questions": [
+            "What is right action when duties conflict?",
+            "How can one act without attachment to outcomes?",
+            "What is the relationship between self, God, and world?",
+            "How do knowledge, devotion, and disciplined action lead to liberation?"
+        ],
+        "key_thinkers": [
+            "Vyasa (traditionally attributed)",
+            "Krishna (as teacher in the text)",
+            "Adi Shankara",
+            "Ramanuja",
+            "Bal Gangadhar Tilak"
+        ],
+        "core_arguments": [
+            "Nishkama karma: perform duty without attachment to personal gain",
+            "Dharma: moral responsibility is context-sensitive and role-bound",
+            "Multiple yogic paths (knowledge, devotion, action) can converge toward liberation",
+            "Moral clarity requires disciplined self-mastery and insight into the nature of self"
+        ],
+        "practical_applications": [
+            "Ethical decision-making under pressure and role conflict",
+            "Leadership grounded in service rather than ego",
+            "Integrating reflective practice with purposeful action",
+            "Value-based organizational culture and responsibility"
+        ],
+        "related_concepts": [
+            "ethics_deontology",
+            "ethics_virtue",
+            "existentialism",
+            "social_contract"
+        ],
+        "tags": [
+            "ethics",
+            "duty",
+            "action",
+            "eastern_philosophy"
+        ]
+    },
+    {
+        "id": "yoga_sutras_of_patanjali",
+        "name": "Yoga Sutras of Patanjali",
+        "branch": "philosophy_of_mind",
+        "description": "A classical Indian philosophical text on the discipline of mind, meditation, and liberation through ethical practice, concentration, and insight.",
+        "key_questions": [
+            "How can mental fluctuations be stilled?",
+            "What practices cultivate sustained attention and insight?",
+            "How do ethical restraints support psychological freedom?",
+            "What is the distinction between pure awareness and mental activity?"
+        ],
+        "key_thinkers": [
+            "Patanjali",
+            "Vyasa (commentator)",
+            "Vacaspati Misra",
+            "Swami Vivekananda"
+        ],
+        "core_arguments": [
+            "Yoga is defined as the cessation of mental modifications (citta-vritti-nirodhah)",
+            "The eight limbs of yoga provide a progressive framework for ethical and contemplative development",
+            "Suffering is reduced by disentangling awareness from habitual identification with thoughts",
+            "Disciplined practice (abhyasa) and non-attachment (vairagya) are central to transformation"
+        ],
+        "practical_applications": [
+            "Meditation training for focus and emotional regulation",
+            "Ethical frameworks for personal conduct and community life",
+            "Breath and attention practices in mental health and performance contexts",
+            "Contemplative methods for self-observation and cognitive flexibility"
+        ],
+        "related_concepts": [
+            "philosophy_of_mind",
+            "phenomenology",
+            "buddhism",
+            "stoicism"
+        ],
+        "tags": [
+            "consciousness",
+            "meditation",
+            "ethics",
+            "eastern_philosophy"
+        ]
+    },
+    {
+        "id": "jiddu_krishnamurti",
+        "name": "Jiddu Krishnamurti",
+        "branch": "ethics",
+        "description": "A modern philosopher and spiritual teacher who argued that psychological freedom requires direct observation of thought, freedom from authority in matters of truth, and an immediate transformation of consciousness.",
+        "key_questions": [
+            "Can the mind observe itself without judgment or choice?",
+            "Is psychological authority an obstacle to understanding truth?",
+            "Can thought, which is conditioned by memory, ever solve inner conflict?",
+            "What is freedom if it is not the result of method, discipline, or time?"
+        ],
+        "key_thinkers": [
+            "Jiddu Krishnamurti",
+            "David Bohm",
+            "Aldous Huxley"
+        ],
+        "core_arguments": [
+            "Truth is a pathless land and cannot be approached through organized belief systems or spiritual authority",
+            "The observer is the observed: the division between thinker and thought is psychologically illusory",
+            "Choiceless awareness reveals conditioning and ends conflict without suppression or analysis",
+            "Psychological time (becoming) sustains fear and desire; freedom is available only in direct present awareness"
+        ],
+        "practical_applications": [
+            "Mindfulness and self-inquiry practices centered on non-judgmental observation",
+            "Education models that prioritize awareness, inquiry, and freedom from conformity",
+            "Conflict resolution through listening without psychological defensiveness",
+            "Leadership reflection practices that reduce ego-driven decision making"
+        ],
+        "related_concepts": [
+            "phenomenology",
+            "stoicism",
+            "ethics_virtue",
+            "philosophy_of_mind"
+        ],
+        "tags": [
+            "awareness",
+            "freedom",
+            "self_inquiry",
+            "modern_philosophy"
+        ]
+    }
+]

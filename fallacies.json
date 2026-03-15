@@ -1,0 +1,676 @@
+[
+    {
+        "id": "strawman",
+        "name": "Strawman",
+        "category": "argument_distortion",
+        "description": "Misrepresenting someone's argument to make it easier to attack.",
+        "impact": "Derails rational discussion by attacking a distorted version of the argument.",
+        "trigger_phrases": [
+            "So what you're saying is...",
+            "You just want...",
+            "According to you..."
+        ],
+        "argument_patterns": [
+            "Original claim A -> exaggerated claim A' -> attack A'",
+            "Restating opponent's position in a more extreme way before criticizing"
+        ],
+        "counter_questions": [
+            "Can you restate my argument in a way I would agree with?",
+            "Where exactly did I say that?",
+            "Are we discussing the same claim?"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_biases": [
+            "confirmation_bias"
+        ],
+        "tags": [
+            "debate",
+            "misrepresentation"
+        ]
+    },
+    {
+        "id": "false_cause",
+        "name": "False Cause",
+        "category": "causality",
+        "description": "Assuming that because two things occur together, one causes the other.",
+        "impact": "Leads to incorrect causal conclusions and poor policy or strategy choices.",
+        "trigger_phrases": [
+            "Ever since X happened...",
+            "X increased when Y happened",
+            "This proves X caused Y"
+        ],
+        "argument_patterns": [
+            "A happens before B -> therefore A caused B",
+            "A correlates with B -> therefore A causes B"
+        ],
+        "counter_questions": [
+            "What evidence shows causation rather than correlation?",
+            "What other factors might explain the relationship?"
+        ],
+        "severity": "high",
+        "frequency": "common",
+        "related_biases": [
+            "availability_heuristic"
+        ],
+        "tags": [
+            "statistics",
+            "causality"
+        ]
+    },
+    {
+        "id": "slippery_slope",
+        "name": "Slippery Slope",
+        "category": "causal_prediction",
+        "description": "Arguing that a small step will inevitably lead to extreme consequences without sufficient evidence.",
+        "impact": "Creates exaggerated fear and blocks reasonable decisions.",
+        "trigger_phrases": [
+            "If we allow this...",
+            "Next thing you know...",
+            "Where does it end?"
+        ],
+        "argument_patterns": [
+            "A -> B -> C -> catastrophic Z",
+            "Small change framed as leading to societal collapse"
+        ],
+        "counter_questions": [
+            "What evidence supports each step?",
+            "Are there examples where A happened without leading to Z?"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_biases": [
+            "negativity_bias"
+        ],
+        "tags": [
+            "fear",
+            "prediction"
+        ]
+    },
+    {
+        "id": "ad_hominem",
+        "name": "Ad Hominem",
+        "category": "personal_attack",
+        "description": "Attacking the person instead of addressing the argument.",
+        "impact": "Shifts focus away from evaluating evidence.",
+        "trigger_phrases": [
+            "You're just saying that because...",
+            "What would you know?",
+            "You're not qualified to say that"
+        ],
+        "argument_patterns": [
+            "Person P makes argument A -> attack P -> conclude A is false"
+        ],
+        "counter_questions": [
+            "How does that relate to the argument itself?",
+            "Can we evaluate the claim independently of the person?"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_biases": [
+            "halo_effect"
+        ],
+        "tags": [
+            "debate",
+            "character_attack"
+        ]
+    },
+    {
+        "id": "special_pleading",
+        "name": "Special Pleading",
+        "category": "double_standard",
+        "description": "Applying standards or exceptions to your own claim while denying those standards to others.",
+        "impact": "Breaks fair evaluation by shielding favored claims from scrutiny.",
+        "trigger_phrases": [
+            "This case is different",
+            "The rules don't apply here",
+            "You can't compare that"
+        ],
+        "argument_patterns": [
+            "General rule R for others -> exception for my claim without justification",
+            "Counterexample presented -> ad hoc exemption added"
+        ],
+        "counter_questions": [
+            "What principled reason justifies this exception?",
+            "Would you accept the same exception from the other side?"
+        ],
+        "severity": "high",
+        "frequency": "common",
+        "related_biases": [
+            "self_serving_bias"
+        ],
+        "tags": [
+            "fairness",
+            "consistency"
+        ]
+    },
+    {
+        "id": "loaded_question",
+        "name": "Loaded Question",
+        "category": "question_trap",
+        "description": "Asking a question with a built-in assumption that forces a damaging answer.",
+        "impact": "Derails discussion by presuming guilt or agreement.",
+        "trigger_phrases": [
+            "Have you stopped...",
+            "Why are you still...",
+            "When did you start..."
+        ],
+        "argument_patterns": [
+            "Question Q presupposes disputed claim P",
+            "Any direct answer implies acceptance of P"
+        ],
+        "counter_questions": [
+            "What assumption is built into this question?",
+            "Can we first establish whether that premise is true?"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_biases": [
+            "framing_effect"
+        ],
+        "tags": [
+            "debate",
+            "questioning"
+        ]
+    },
+    {
+        "id": "gamblers_fallacy",
+        "name": "The Gambler's Fallacy",
+        "category": "probability_error",
+        "description": "Believing past random outcomes make opposite outcomes more likely in independent events.",
+        "impact": "Causes systematic errors in risk and betting decisions.",
+        "trigger_phrases": [
+            "It's due now",
+            "It can't happen again",
+            "We're overdue for the opposite"
+        ],
+        "argument_patterns": [
+            "Independent event repeats -> conclude reversal is now likely",
+            "Run of outcomes treated as causal pressure"
+        ],
+        "counter_questions": [
+            "Are these events statistically independent?",
+            "How do the base probabilities change from one trial to the next?"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_biases": [
+            "availability_heuristic"
+        ],
+        "tags": [
+            "probability",
+            "randomness"
+        ]
+    },
+    {
+        "id": "bandwagon",
+        "name": "Bandwagon",
+        "category": "social_reasoning",
+        "description": "Appealing to popularity as proof that something is true.",
+        "impact": "Encourages herd thinking instead of evidence-based reasoning.",
+        "trigger_phrases": [
+            "Everyone knows",
+            "Most people believe",
+            "It's popular so it must be true"
+        ],
+        "argument_patterns": [
+            "Many people believe X -> therefore X is true"
+        ],
+        "counter_questions": [
+            "Does popularity make something correct?",
+            "What evidence supports this claim?"
+        ],
+        "severity": "medium",
+        "frequency": "very_common",
+        "related_biases": [
+            "groupthink"
+        ],
+        "tags": [
+            "social_influence"
+        ]
+    },
+    {
+        "id": "appeal_to_authority",
+        "name": "Appeal to Authority",
+        "category": "authority",
+        "description": "Using an authority's opinion as proof instead of presenting evidence.",
+        "impact": "Discourages independent evaluation of claims.",
+        "trigger_phrases": [
+            "A famous expert said",
+            "A celebrity endorses",
+            "Scientists say"
+        ],
+        "argument_patterns": [
+            "Authority A believes claim X -> therefore X is true"
+        ],
+        "counter_questions": [
+            "Is the authority qualified in this specific field?",
+            "What direct evidence supports the claim?"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_biases": [
+            "halo_effect"
+        ],
+        "tags": [
+            "authority"
+        ]
+    },
+    {
+        "id": "composition",
+        "name": "Composition",
+        "category": "part_whole_error",
+        "description": "Assuming that what is true of parts must also be true of the whole.",
+        "impact": "Produces invalid inferences in systems, teams, and statistics.",
+        "trigger_phrases": [
+            "Each part is... so the whole is...",
+            "If members have property P, the group has P"
+        ],
+        "argument_patterns": [
+            "Part has property P -> whole has property P",
+            "Local trait generalized globally without evidence"
+        ],
+        "counter_questions": [
+            "Why should part-level properties transfer to the whole?",
+            "What evidence supports this at the whole-system level?"
+        ],
+        "severity": "medium",
+        "frequency": "moderate",
+        "related_biases": [
+            "belief_bias"
+        ],
+        "tags": [
+            "logic",
+            "systems"
+        ]
+    },
+    {
+        "id": "no_true_scotsman",
+        "name": "No True Scotsman",
+        "category": "purity_test",
+        "description": "Dismissing counterexamples by redefining a group to protect a universal claim.",
+        "impact": "Prevents belief revision by moving standards after contradiction appears.",
+        "trigger_phrases": [
+            "No true X would...",
+            "Real supporters don't...",
+            "That doesn't count as a real example"
+        ],
+        "argument_patterns": [
+            "Claim: all X are Y -> counterexample X not Y -> redefine X to exclude case"
+        ],
+        "counter_questions": [
+            "Was this criterion defined before the counterexample appeared?",
+            "Are you revising the claim or just shielding it?"
+        ],
+        "severity": "high",
+        "frequency": "common",
+        "related_biases": [
+            "in_group_bias"
+        ],
+        "tags": [
+            "identity",
+            "goalpost_shift"
+        ]
+    },
+    {
+        "id": "genetic_fallacy",
+        "name": "Genetic Fallacy",
+        "category": "source_based_judgment",
+        "description": "Judging a claim as true or false based on its origin rather than its merits.",
+        "impact": "Substitutes provenance judgments for evidence quality.",
+        "trigger_phrases": [
+            "It came from them, so it's wrong",
+            "That idea is from X, therefore unreliable",
+            "Given the source, we can ignore it"
+        ],
+        "argument_patterns": [
+            "Claim C originates from source S -> conclude C true/false because of S"
+        ],
+        "counter_questions": [
+            "What is the evidence for the claim itself?",
+            "Does the source determine truth value here?"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_biases": [
+            "in_group_bias"
+        ],
+        "tags": [
+            "source_critique",
+            "evidence"
+        ]
+    },
+    {
+        "id": "false_dilemma",
+        "name": "Black-or-White (False Dilemma)",
+        "category": "false_choices",
+        "description": "Presenting two options as the only possibilities when others exist.",
+        "impact": "Oversimplifies complex decisions and polarizes discussion.",
+        "trigger_phrases": [
+            "Either you're with us or against us",
+            "There are only two options"
+        ],
+        "argument_patterns": [
+            "Only A or B presented -> ignore alternatives C, D, E"
+        ],
+        "counter_questions": [
+            "Are there other possible options?",
+            "Why must these be the only two choices?"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_biases": [],
+        "tags": [
+            "decision_making",
+            "polarization"
+        ]
+    },
+    {
+        "id": "begging_the_question",
+        "name": "Begging the Question",
+        "category": "circular_reasoning",
+        "description": "The conclusion is assumed within the premise.",
+        "impact": "Creates arguments without independent support.",
+        "trigger_phrases": [
+            "It's obvious that",
+            "This proves itself",
+            "Because it's true"
+        ],
+        "argument_patterns": [
+            "Claim A used as evidence for claim A"
+        ],
+        "counter_questions": [
+            "What independent evidence supports the claim?"
+        ],
+        "severity": "medium",
+        "frequency": "moderate",
+        "related_biases": [
+            "belief_bias"
+        ],
+        "tags": [
+            "logic",
+            "circularity"
+        ]
+    },
+    {
+        "id": "appeal_to_nature",
+        "name": "Appeal to Nature",
+        "category": "naturalistic_fallacy",
+        "description": "Assuming something is good because it is natural.",
+        "impact": "Rejects beneficial interventions and accepts harmful 'natural' ones.",
+        "trigger_phrases": [
+            "It's natural",
+            "Artificial things are harmful"
+        ],
+        "argument_patterns": [
+            "X is natural -> therefore X is good"
+        ],
+        "counter_questions": [
+            "Does natural always mean better?",
+            "What evidence shows it is beneficial?"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_biases": [
+            "status_quo_bias"
+        ],
+        "tags": [
+            "naturalism",
+            "health_claims"
+        ]
+    },
+    {
+        "id": "anecdotal",
+        "name": "Anecdotal",
+        "category": "evidence_error",
+        "description": "Using isolated personal stories in place of broader, systematic evidence.",
+        "impact": "Overweights vivid examples and ignores representative data.",
+        "trigger_phrases": [
+            "In my experience...",
+            "I know someone who...",
+            "It happened to my friend"
+        ],
+        "argument_patterns": [
+            "Single case cited -> general rule concluded",
+            "Personal testimony used to dismiss statistical studies"
+        ],
+        "counter_questions": [
+            "How representative is this example?",
+            "What do large-sample studies show?"
+        ],
+        "severity": "medium",
+        "frequency": "very_common",
+        "related_biases": [
+            "availability_heuristic"
+        ],
+        "tags": [
+            "evidence",
+            "statistics"
+        ]
+    },
+    {
+        "id": "texas_sharpshooter",
+        "name": "The Texas Sharpshooter",
+        "category": "cherry_picking",
+        "description": "Highlighting data clusters that fit a claim while ignoring the full pattern.",
+        "impact": "Creates false confidence by manufacturing patterns from noise.",
+        "trigger_phrases": [
+            "Look at these examples that prove it",
+            "The data clearly shows (selected subset)",
+            "If you focus on these points"
+        ],
+        "argument_patterns": [
+            "Data set D -> select favorable subset S -> infer broad conclusion C",
+            "Pattern identified after outcome known"
+        ],
+        "counter_questions": [
+            "What happens when we include all relevant data?",
+            "Was the hypothesis specified before looking at the data?"
+        ],
+        "severity": "high",
+        "frequency": "common",
+        "related_biases": [
+            "confirmation_bias"
+        ],
+        "tags": [
+            "statistics",
+            "cherry_picking"
+        ]
+    },
+    {
+        "id": "middle_ground",
+        "name": "Middle Ground",
+        "category": "compromise_fallacy",
+        "description": "Assuming the truth must lie between two opposing positions.",
+        "impact": "Treats compromise as evidence, even when one side is simply wrong.",
+        "trigger_phrases": [
+            "The truth is probably in the middle",
+            "Let's split the difference",
+            "Both sides are equally right and wrong"
+        ],
+        "argument_patterns": [
+            "Claim A vs claim B -> conclude midpoint M is true without evidence"
+        ],
+        "counter_questions": [
+            "Why should the midpoint be more accurate?",
+            "What independent evidence supports the compromise position?"
+        ],
+        "severity": "medium",
+        "frequency": "moderate",
+        "related_biases": [
+            "framing_effect"
+        ],
+        "tags": [
+            "negotiation",
+            "truth_criteria"
+        ]
+    },
+    {
+        "id": "appeal_to_emotion",
+        "name": "Appeal to Emotion",
+        "category": "emotional_manipulation",
+        "description": "Using emotional pressure in place of relevant evidence.",
+        "impact": "Can override critical evaluation and lead to poor decisions.",
+        "trigger_phrases": [
+            "Think of the children",
+            "If you cared, you would agree",
+            "This should make you angry"
+        ],
+        "argument_patterns": [
+            "Evoke strong emotion E -> treat E as proof of claim C"
+        ],
+        "counter_questions": [
+            "What evidence supports this conclusion?",
+            "How would we evaluate this claim if emotion were lower?"
+        ],
+        "severity": "high",
+        "frequency": "very_common",
+        "related_biases": [
+            "negativity_bias"
+        ],
+        "tags": [
+            "persuasion",
+            "emotion"
+        ]
+    },
+    {
+        "id": "tu_quoque",
+        "name": "Tu Quoque",
+        "category": "deflection",
+        "description": "Rejecting criticism by accusing the critic of similar behavior.",
+        "impact": "Deflects from whether the original criticism is valid.",
+        "trigger_phrases": [
+            "You do it too",
+            "Look who's talking",
+            "You're just as bad"
+        ],
+        "argument_patterns": [
+            "Criticism of A -> respond with hypocrisy claim about critic -> dismiss criticism"
+        ],
+        "counter_questions": [
+            "Even if that is true, does it address the claim itself?",
+            "Can we evaluate the criticism on its own merits?"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_biases": [
+            "self_serving_bias"
+        ],
+        "tags": [
+            "debate",
+            "deflection"
+        ]
+    },
+    {
+        "id": "personal_incredulity",
+        "name": "Personal Incredulity",
+        "category": "understanding_gap",
+        "description": "Concluding a claim is false because it seems difficult to understand or imagine.",
+        "impact": "Blocks learning about complex evidence and mechanisms.",
+        "trigger_phrases": [
+            "I can't imagine how that could be true",
+            "That makes no sense to me",
+            "It's too weird to be real"
+        ],
+        "argument_patterns": [
+            "I don't understand X -> therefore X is false"
+        ],
+        "counter_questions": [
+            "Does my lack of understanding imply falsehood?",
+            "What do domain experts and evidence say?"
+        ],
+        "severity": "medium",
+        "frequency": "common",
+        "related_biases": [
+            "dunning_kruger_effect"
+        ],
+        "tags": [
+            "epistemology",
+            "complexity"
+        ]
+    },
+    {
+        "id": "burden_of_proof",
+        "name": "Burden of Proof",
+        "category": "evidential_responsibility",
+        "description": "Shifting responsibility to others to disprove a claim instead of supporting it.",
+        "impact": "Allows unsupported assertions to persist without evidence.",
+        "trigger_phrases": [
+            "Prove me wrong",
+            "You can't disprove it",
+            "Until disproven, it's true"
+        ],
+        "argument_patterns": [
+            "Claim C asserted without evidence -> demand disproof from others"
+        ],
+        "counter_questions": [
+            "What positive evidence supports the claim?",
+            "Why should non-disproof count as proof?"
+        ],
+        "severity": "high",
+        "frequency": "common",
+        "related_biases": [
+            "confirmation_bias"
+        ],
+        "tags": [
+            "evidence",
+            "argumentation"
+        ]
+    },
+    {
+        "id": "ambiguity",
+        "name": "Ambiguity",
+        "category": "language_trick",
+        "description": "Using unclear or double-meaning language to imply unsupported conclusions.",
+        "impact": "Confuses interpretation and permits misleading arguments.",
+        "trigger_phrases": [
+            "Fine for parking here",
+            "Technically true but unclear wording",
+            "Term used with shifting meanings"
+        ],
+        "argument_patterns": [
+            "Term T used in sense S1 in premise and S2 in conclusion",
+            "Grammatical ambiguity exploited to mislead"
+        ],
+        "counter_questions": [
+            "Can we define this key term precisely?",
+            "Are we using the same meaning throughout?"
+        ],
+        "severity": "medium",
+        "frequency": "moderate",
+        "related_biases": [
+            "framing_effect"
+        ],
+        "tags": [
+            "language",
+            "semantics"
+        ]
+    },
+    {
+        "id": "fallacy_fallacy",
+        "name": "The Fallacy Fallacy",
+        "category": "meta_reasoning_error",
+        "description": "Assuming a conclusion is false simply because the argument for it is fallacious.",
+        "impact": "Confuses argument quality with truth value and can reject true claims.",
+        "trigger_phrases": [
+            "That argument is fallacious, so the claim is false",
+            "You used a fallacy, therefore you're wrong"
+        ],
+        "argument_patterns": [
+            "Argument for claim C is invalid -> conclude not C"
+        ],
+        "counter_questions": [
+            "Even if the argument is flawed, what is the actual evidence for or against the claim?",
+            "Can the conclusion still be true for other reasons?"
+        ],
+        "severity": "medium",
+        "frequency": "moderate",
+        "related_biases": [
+            "belief_bias"
+        ],
+        "tags": [
+            "logic",
+            "meta_reasoning"
+        ]
+    }
+]

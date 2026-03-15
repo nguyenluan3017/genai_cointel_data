@@ -1,0 +1,619 @@
+[
+    {
+        "id": "first_principles_thinking",
+        "name": "First Principles Thinking",
+        "category": "problem_decomposition",
+        "description": "Breaking down a problem to its most fundamental, irreducible truths and reasoning up from there, rather than relying on analogy or convention.",
+        "application": "Identify the problem, question every assumption, reduce it to its foundational elements, and rebuild your solution from the ground up.",
+        "steps": [
+            "Identify the problem or belief you want to examine",
+            "List every assumption you are making about it",
+            "Question each assumption: 'Is this necessarily true?'",
+            "Identify what remains that cannot be questioned",
+            "Build your solution or reasoning from those foundational truths"
+        ],
+        "benefits": [
+            "Enables genuinely innovative solutions not constrained by convention",
+            "Reveals hidden assumptions that may be wrong",
+            "Forces deep understanding of the subject matter",
+            "Breaks free from 'this is how it has always been done' thinking"
+        ],
+        "limitations": [
+            "Time-consuming and cognitively demanding",
+            "Requires deep domain knowledge to identify true fundamentals",
+            "Can lead to over-engineering simple problems",
+            "Risk of dismissing useful conventional wisdom unnecessarily"
+        ],
+        "examples": [
+            "Elon Musk reasoning about battery costs from raw material prices rather than market prices",
+            "Aristotle's method of defining things by their essential properties",
+            "Rethinking transportation from the physics of motion rather than improving existing vehicles"
+        ],
+        "related_frameworks": [
+            "socratic_method",
+            "scientific_method",
+            "inversion"
+        ],
+        "tags": [
+            "innovation",
+            "problem_solving",
+            "critical_thinking"
+        ]
+    },
+    {
+        "id": "second_order_thinking",
+        "name": "Second-Order Thinking",
+        "category": "consequence_analysis",
+        "description": "Considering not just the immediate effects of a decision (first-order), but the subsequent effects of those effects (second and higher-order consequences).",
+        "application": "After identifying the direct outcome of a decision, ask 'and then what?' repeatedly to trace cascading consequences over time.",
+        "steps": [
+            "Identify the decision or action",
+            "List the immediate first-order consequences",
+            "For each consequence, ask 'And then what will happen?'",
+            "Continue tracing consequences at least two to three levels deep",
+            "Evaluate whether the long-term outcomes are acceptable"
+        ],
+        "benefits": [
+            "Prevents short-term thinking that creates long-term problems",
+            "Reveals unintended consequences before they occur",
+            "Improves strategic planning and policy design",
+            "Helps identify feedback loops and systemic effects"
+        ],
+        "limitations": [
+            "Complexity grows exponentially with each order considered",
+            "Future consequences become increasingly uncertain",
+            "May lead to analysis paralysis if not bounded",
+            "Requires good domain knowledge to trace realistic consequences"
+        ],
+        "examples": [
+            "Cobra effect: British colonial policy paying bounties for dead cobras increased cobra breeding",
+            "Social media platforms optimizing for engagement increased polarization",
+            "Zoning laws intended to keep neighborhoods affordable that eventually increased housing costs"
+        ],
+        "related_frameworks": [
+            "systems_thinking",
+            "inversion",
+            "causal_loop_diagrams"
+        ],
+        "tags": [
+            "strategy",
+            "systems_thinking",
+            "decision_making"
+        ]
+    },
+    {
+        "id": "inversion",
+        "name": "Inversion",
+        "category": "problem_reframing",
+        "description": "Solving a problem by thinking about it backwards — instead of asking how to achieve success, ask how to guarantee failure, then avoid those things.",
+        "application": "Flip the goal: instead of 'how do I succeed?', ask 'what would guarantee I fail?' or 'what is the opposite of the outcome I want?' Then work to avoid those failure modes.",
+        "steps": [
+            "Define the desired outcome clearly",
+            "Invert the goal: define the worst possible outcome",
+            "Brainstorm everything that would cause the worst outcome",
+            "Identify which failure causes are within your control",
+            "Build your plan around avoiding those failure modes"
+        ],
+        "benefits": [
+            "Reveals hidden failure modes and risks not visible when thinking forward",
+            "Easier to identify what to avoid than what to do",
+            "Reduces overconfidence by surfacing problems early",
+            "Widely applicable across domains (business, relationships, health)"
+        ],
+        "limitations": [
+            "Focusing on failure can induce excessive caution",
+            "Does not always generate positive strategies, only avoidance strategies",
+            "Works best in combination with forward-thinking frameworks"
+        ],
+        "examples": [
+            "Charlie Munger: 'All I want to know is where I'm going to die so I'll never go there'",
+            "Pre-mortem analysis in project management",
+            "Warren Buffett's two rules: Rule 1: Never lose money. Rule 2: Never forget Rule 1."
+        ],
+        "related_frameworks": [
+            "second_order_thinking",
+            "premortem_analysis",
+            "via_negativa"
+        ],
+        "tags": [
+            "risk_management",
+            "decision_making",
+            "problem_solving"
+        ]
+    },
+    {
+        "id": "occams_razor",
+        "name": "Occam's Razor",
+        "category": "parsimony",
+        "description": "When multiple explanations are equally supported by evidence, prefer the simplest one — the one that requires the fewest assumptions.",
+        "application": "When evaluating competing hypotheses or explanations, count the assumptions required by each and prefer the one with fewest, all else being equal.",
+        "steps": [
+            "List competing explanations for the observation",
+            "Identify all assumptions each explanation requires",
+            "Eliminate explanations that require more assumptions than simpler alternatives",
+            "Select the simplest sufficient explanation",
+            "Remain open to updating if new evidence supports a more complex explanation"
+        ],
+        "benefits": [
+            "Prevents unnecessarily complex or convoluted thinking",
+            "Reduces the risk of over-fitting theories to limited data",
+            "Useful heuristic for generating initial hypotheses",
+            "Encourages clarity and precision in reasoning"
+        ],
+        "limitations": [
+            "Simplicity does not equal truth — reality can be complex",
+            "Different people may disagree on which explanation is 'simpler'",
+            "Can dismiss correct but counterintuitive explanations too early",
+            "Not a proof — only a guide for hypothesis selection"
+        ],
+        "examples": [
+            "In medicine: common conditions are more likely causes than rare diseases for common symptoms",
+            "In science: the heliocentric model was simpler than the geocentric model with epicycles",
+            "In debugging: a single root cause is more likely than multiple simultaneous failures"
+        ],
+        "related_frameworks": [
+            "scientific_method",
+            "first_principles_thinking",
+            "falsifiability"
+        ],
+        "tags": [
+            "epistemology",
+            "hypothesis_testing",
+            "parsimony"
+        ]
+    },
+    {
+        "id": "hanlons_razor",
+        "name": "Hanlon's Razor",
+        "category": "attribution",
+        "description": "Never attribute to malice what can be adequately explained by stupidity (or more charitably: by ignorance, error, or incompetence).",
+        "application": "Before assuming bad intent behind a harmful action, consider whether incompetence, error, or miscommunication is a sufficient explanation.",
+        "steps": [
+            "Identify the harmful or frustrating action",
+            "Consider: could this be adequately explained by error, ignorance, or incompetence?",
+            "Consider: is there positive evidence of intent to harm, or only inference?",
+            "Default to the charitable explanation unless positive evidence of malice exists",
+            "Adjust response accordingly: coaching rather than punishment for errors"
+        ],
+        "benefits": [
+            "Reduces unnecessary interpersonal conflict",
+            "Prevents paranoid attribution of malice",
+            "Supports a more collaborative and productive environment",
+            "Consistent with the principle of charitable interpretation"
+        ],
+        "limitations": [
+            "Can lead to under-reacting to genuine bad actors",
+            "Should be updated when positive evidence of malice accumulates",
+            "Does not apply when pattern of behavior excludes incompetence",
+            "Cultural and contextual factors affect appropriate application"
+        ],
+        "examples": [
+            "Assuming a colleague missed a deadline due to poor time management rather than sabotage",
+            "Interpreting a confusing policy as bureaucratic error rather than conspiracy",
+            "Treating a rude comment as social obliviousness rather than deliberate hostility"
+        ],
+        "related_frameworks": [
+            "charitable_interpretation",
+            "fundamental_attribution_error",
+            "steelmanning"
+        ],
+        "tags": [
+            "interpersonal",
+            "attribution",
+            "conflict_resolution"
+        ]
+    },
+    {
+        "id": "circle_of_competence",
+        "name": "Circle of Competence",
+        "category": "self_awareness",
+        "description": "Knowing the boundaries of your own knowledge and expertise, and operating primarily within those boundaries while acknowledging what lies outside them.",
+        "application": "Identify the domains where you have deep, tested expertise. Be honest about where your knowledge ends. Operate confidently within your circle and proceed with humility outside it.",
+        "steps": [
+            "List the domains where you have deep, tested knowledge",
+            "Identify the boundary: what do you know you don't know?",
+            "For decisions outside your circle, seek expert input or acknowledge uncertainty",
+            "Continuously expand your circle through deliberate learning",
+            "Update your assessment of your boundaries as your domain expertise evolves or becomes outdated"
+        ],
+        "benefits": [
+            "Prevents overconfident decisions in unfamiliar domains",
+            "Builds credibility by matching claims to expertise",
+            "Supports effective delegation and collaboration",
+            "Encourages honest intellectual humility"
+        ],
+        "limitations": [
+            "Circles can be incorrectly drawn — Dunning-Kruger applies",
+            "Overly narrow circles lead to missed interdisciplinary insights",
+            "Self-assessment of competence is itself subject to bias",
+            "Markets and domains evolve; yesterday's competence may not apply today"
+        ],
+        "examples": [
+            "Warren Buffett declining to invest in technology companies in the 1990s",
+            "A cardiologist deferring to an oncologist on cancer treatment decisions",
+            "A software engineer recognizing the limits of their knowledge in hardware design"
+        ],
+        "related_frameworks": [
+            "hanlons_razor",
+            "dunning_kruger_effect",
+            "deliberate_practice"
+        ],
+        "tags": [
+            "self_awareness",
+            "expertise",
+            "decision_making"
+        ]
+    },
+    {
+        "id": "map_is_not_the_territory",
+        "name": "The Map Is Not the Territory",
+        "category": "epistemology",
+        "description": "Mental models, theories, and descriptions of reality are always simplified approximations — not reality itself. Confusing the model with reality leads to serious errors.",
+        "application": "Recognize that all frameworks, models, and descriptions are imperfect simplifications. Regularly test your models against reality and update them when they fail to predict correctly.",
+        "steps": [
+            "Identify the model or framework you are using",
+            "Ask: what simplifying assumptions does this model make?",
+            "Identify what is left out or distorted by the model",
+            "Test the model against observed reality",
+            "Update or replace the model when observations diverge from predictions"
+        ],
+        "benefits": [
+            "Prevents over-reliance on flawed models",
+            "Encourages empirical testing and intellectual humility",
+            "Reveals assumptions that may not hold in a given context",
+            "Improves decision quality by accounting for model uncertainty"
+        ],
+        "limitations": [
+            "Without models, we cannot reason about the world at all",
+            "Excessive skepticism of models can lead to paralysis",
+            "Some maps are accurate enough for practical purposes"
+        ],
+        "examples": [
+            "Economic models that failed to predict the 2008 financial crisis",
+            "Political ideologies taken as literal truth rather than simplifying frameworks",
+            "Navigation maps that omit elevation data critical for hiking decisions"
+        ],
+        "related_frameworks": [
+            "scientific_method",
+            "falsifiability",
+            "first_principles_thinking"
+        ],
+        "tags": [
+            "epistemology",
+            "mental_models",
+            "critical_thinking"
+        ]
+    },
+    {
+        "id": "systems_thinking",
+        "name": "Systems Thinking",
+        "category": "holistic_analysis",
+        "description": "Understanding a subject by examining the linkages and interactions between its components, rather than analyzing parts in isolation.",
+        "application": "Map the components of a system, identify the feedback loops and causal connections between them, and reason about emergent behavior that arises from those interactions.",
+        "steps": [
+            "Define the boundary of the system under examination",
+            "Identify the key components and agents within the system",
+            "Map the relationships and feedback loops between components",
+            "Identify reinforcing (amplifying) and balancing (stabilizing) loops",
+            "Look for emergent properties not visible when examining parts in isolation",
+            "Identify leverage points where small changes have large effects"
+        ],
+        "benefits": [
+            "Reveals unintended consequences and feedback effects",
+            "Enables understanding of complex, dynamic problems",
+            "Prevents reductionist errors from examining parts in isolation",
+            "Identifies high-leverage intervention points"
+        ],
+        "limitations": [
+            "Can become overly complex and unwieldy",
+            "Requires significant time and expertise to model accurately",
+            "Difficult to validate predictions in highly complex systems",
+            "Risk of spurious connections being drawn"
+        ],
+        "examples": [
+            "Understanding how deforestation leads to soil erosion, flooding, and reduced agricultural productivity",
+            "Analyzing how traffic congestion emerges from individual driving decisions",
+            "Understanding how antibiotic overuse drives the evolution of resistant bacteria"
+        ],
+        "related_frameworks": [
+            "second_order_thinking",
+            "causal_loop_diagrams",
+            "feedback_loops"
+        ],
+        "tags": [
+            "complexity",
+            "systems",
+            "strategy"
+        ]
+    },
+    {
+        "id": "probabilistic_thinking",
+        "name": "Probabilistic Thinking",
+        "category": "uncertainty_management",
+        "description": "Thinking in terms of probabilities and distributions rather than certainties, acknowledging that most outcomes exist on a spectrum of likelihood.",
+        "application": "Instead of predicting a single outcome, assign probability weights to a range of scenarios, and make decisions that maximize expected value or minimize expected harm.",
+        "steps": [
+            "Identify the range of possible outcomes",
+            "Assign probability estimates to each outcome based on evidence",
+            "Calculate expected values where appropriate",
+            "Consider the variance (spread) of outcomes, not just the expected value",
+            "Update probabilities as new evidence arrives (Bayesian updating)",
+            "Make decisions that account for probability-weighted outcomes"
+        ],
+        "benefits": [
+            "Handles uncertainty more accurately than binary thinking",
+            "Prevents overconfidence in predictions",
+            "Enables more nuanced and calibrated decision making",
+            "Compatible with continuous learning and updating"
+        ],
+        "limitations": [
+            "Requires ability to assign defensible probability estimates",
+            "Cognitively demanding and counterintuitive for many people",
+            "Expected value calculations can obscure important tail risks",
+            "May seem evasive when stakeholders expect definitive predictions"
+        ],
+        "examples": [
+            "Weather forecasting expressing outcomes as percentage probabilities",
+            "Superforecasting techniques used by Tetlock's Good Judgment Project",
+            "Investment decisions based on probability-weighted return scenarios"
+        ],
+        "related_frameworks": [
+            "bayesian_updating",
+            "expected_value_thinking",
+            "scenario_planning"
+        ],
+        "tags": [
+            "uncertainty",
+            "statistics",
+            "decision_making"
+        ]
+    },
+    {
+        "id": "steelmanning",
+        "name": "Steelmanning",
+        "category": "argumentation",
+        "description": "The practice of constructing the strongest possible version of an opposing argument before critiquing it — the opposite of strawmanning.",
+        "application": "Before arguing against a position, articulate that position in the strongest, most charitable, and most defensible form. Only then engage in critique.",
+        "steps": [
+            "Identify the position you want to critique",
+            "Set aside your own views temporarily",
+            "Reconstruct the opposing position in its strongest form",
+            "Identify the strongest evidence and arguments that support it",
+            "Verify with a proponent that your reconstruction is accurate",
+            "Now critique — your critique will be far more rigorous and fair"
+        ],
+        "benefits": [
+            "Produces stronger, more credible arguments",
+            "Increases intellectual honesty and reduces bias",
+            "Builds genuine understanding of opposing views",
+            "Leads to better collaborative problem solving"
+        ],
+        "limitations": [
+            "Time-consuming compared to attacking weak versions of positions",
+            "Requires genuine intellectual honesty and self-discipline",
+            "Can feel counterintuitive in adversarial contexts",
+            "Risk of inadvertently convincing yourself of the opposing view"
+        ],
+        "examples": [
+            "A scientist steelmanning an alternative theory before publishing a rebuttal",
+            "A lawyer preparing for trial by constructing the strongest version of opposing counsel's case",
+            "A policy analyst articulating the best case for a policy they oppose"
+        ],
+        "related_frameworks": [
+            "socratic_method",
+            "principle_of_charity",
+            "dialectical_thinking"
+        ],
+        "tags": [
+            "argumentation",
+            "critical_thinking",
+            "intellectual_honesty"
+        ]
+    },
+    {
+        "id": "via_negativa",
+        "name": "Via Negativa",
+        "category": "subtraction",
+        "description": "The idea that improvement often comes from removing bad elements rather than adding good ones — defining what something is by what it is not.",
+        "application": "Instead of asking what to add to improve a situation, ask what to remove. Identify the biggest sources of harm, friction, or failure and eliminate them before adding new complexity.",
+        "steps": [
+            "Identify the goal or the thing you want to improve",
+            "List all the negative elements, failures, or harms currently present",
+            "Prioritize which negative elements cause the most damage",
+            "Focus energy on eliminating those negatives before adding new positives",
+            "Evaluate whether any existing additions are themselves negatives in disguise"
+        ],
+        "benefits": [
+            "Simplifies complex systems by removing unnecessary elements",
+            "Reduces harm more reliably than adding new benefits",
+            "Avoids the iatrogenic problem of adding complexity that causes new problems",
+            "Often more practical and tractable than positive optimization"
+        ],
+        "limitations": [
+            "Not all problems can be solved by subtraction",
+            "May create a bias toward conservatism",
+            "Requires ability to identify root causes of harm accurately"
+        ],
+        "examples": [
+            "Nassim Taleb's dietary advice: avoid processed foods rather than adding supplements",
+            "Lean manufacturing: eliminate waste before optimizing workflow",
+            "Medical ethics: first, do no harm (primum non nocere)"
+        ],
+        "related_frameworks": [
+            "inversion",
+            "occams_razor",
+            "lean_thinking"
+        ],
+        "tags": [
+            "subtraction",
+            "simplification",
+            "optimization"
+        ]
+    },
+    {
+        "id": "thought_experiment",
+        "name": "Thought Experiment",
+        "category": "imagination",
+        "description": "Using a carefully defined imaginary scenario to explore the implications of a hypothesis, principle, or argument without real-world experimentation.",
+        "application": "Define a hypothetical scenario that isolates the principle you want to test. Reason carefully about what would happen in that scenario and what it reveals about your principle.",
+        "steps": [
+            "Identify the principle or hypothesis to examine",
+            "Construct a hypothetical scenario that isolates that principle",
+            "Ensure the scenario is internally consistent",
+            "Reason carefully about the implications of the scenario",
+            "Draw conclusions about the original principle based on your reasoning",
+            "Test the conclusion against other scenarios or evidence"
+        ],
+        "benefits": [
+            "Allows exploration of ideas where empirical experiments are impossible",
+            "Reveals hidden implications and contradictions in principles",
+            "Accessible, requiring no laboratory or specialized equipment",
+            "A cornerstone of philosophy, physics, and ethics"
+        ],
+        "limitations": [
+            "Conclusions depend on the validity of the hypothetical scenario",
+            "May lead to false conclusions if the scenario contains hidden unrealistic assumptions",
+            "Cannot substitute for empirical testing where experimentation is possible"
+        ],
+        "examples": [
+            "Einstein's train thought experiments developing special relativity",
+            "Trolley problem in ethics exploring moral intuitions about harm",
+            "Schrödinger's cat in quantum mechanics",
+            "John Rawls' veil of ignorance in political philosophy"
+        ],
+        "related_frameworks": [
+            "first_principles_thinking",
+            "socratic_method",
+            "falsifiability"
+        ],
+        "tags": [
+            "philosophy",
+            "science",
+            "ethics",
+            "imagination"
+        ]
+    },
+    {
+        "id": "five_whys",
+        "name": "Five Whys",
+        "category": "root_cause_analysis",
+        "description": "A technique for root cause analysis that involves repeatedly asking 'Why?' to trace a problem from its symptoms back to its fundamental cause.",
+        "application": "State the problem. Ask 'Why did this happen?' Record the answer. Ask 'Why?' again about that answer. Repeat five (or more) times until you reach a root cause that can be addressed.",
+        "steps": [
+            "Write down the specific problem clearly",
+            "Ask 'Why did this problem occur?' and write the answer",
+            "Ask 'Why?' about that answer and record it",
+            "Continue asking 'Why?' until you reach a root cause you can act on (typically 5 iterations)",
+            "Verify your root cause by working backwards from it to the original problem",
+            "Design a countermeasure that addresses the root cause"
+        ],
+        "benefits": [
+            "Simple and accessible — requires no special tools",
+            "Moves beyond symptoms to address actual causes",
+            "Promotes systemic thinking about problems",
+            "Used successfully in Toyota Production System and Six Sigma"
+        ],
+        "limitations": [
+            "May stop too early at a superficial cause",
+            "Different starting points may produce different root causes",
+            "Does not work well for problems with multiple interacting causes",
+            "The 'five' number is a guideline, not a rule"
+        ],
+        "examples": [
+            "Toyota production: why did the machine stop? (electrical fault → blown fuse → vibration → loose bearing → no lubrication)",
+            "Software bug: why did the system crash? → tracing to a race condition in initialization code",
+            "Customer complaint: why did the delivery arrive late? → tracing to inventory management process failure"
+        ],
+        "related_frameworks": [
+            "systems_thinking",
+            "fishbone_diagram",
+            "root_cause_analysis"
+        ],
+        "tags": [
+            "quality",
+            "debugging",
+            "problem_solving"
+        ]
+    },
+    {
+        "id": "dialectical_thinking",
+        "name": "Dialectical Thinking",
+        "category": "argumentation",
+        "description": "A method of reasoning that examines opposing ideas (thesis and antithesis) to arrive at a synthesis that resolves the tension between them.",
+        "application": "Identify a proposition (thesis), formulate its strong opposition (antithesis), and through systematic examination, develop a synthesis that incorporates the valid insights of both.",
+        "steps": [
+            "Identify the thesis: the current position or belief",
+            "Identify the antithesis: the strongest opposing position",
+            "Examine what is valid and what is flawed in each position",
+            "Develop a synthesis that preserves valid insights from both",
+            "Test the synthesis as a new thesis subject to further dialectical challenge"
+        ],
+        "benefits": [
+            "Produces more nuanced and robust positions than one-sided thinking",
+            "Reveals hidden contradictions in beliefs",
+            "Models intellectual progress as successive refinements",
+            "Foundation of many philosophical and scientific traditions"
+        ],
+        "limitations": [
+            "Not all disagreements are resolved by synthesis — sometimes one side is simply correct",
+            "Can lead to false equivalence between well-supported and poorly-supported positions",
+            "The synthesis step can be hijacked by motivated reasoning"
+        ],
+        "examples": [
+            "Hegel's dialectical method applied to the history of ideas",
+            "Scientific progress through paradigm challenge and synthesis",
+            "Political compromise as synthesis between competing policy positions"
+        ],
+        "related_frameworks": [
+            "steelmanning",
+            "socratic_method",
+            "scientific_method"
+        ],
+        "tags": [
+            "philosophy",
+            "argumentation",
+            "synthesis"
+        ]
+    },
+    {
+        "id": "mental_simulation",
+        "name": "Mental Simulation",
+        "category": "anticipation",
+        "description": "Mentally running through a sequence of events or decisions to anticipate outcomes, test plans, and identify failure points before acting.",
+        "application": "Before executing a plan, mentally step through each stage: visualize what happens, where friction or failure might arise, how you would respond, and what the final outcome looks like.",
+        "steps": [
+            "Define the plan, decision, or action to simulate",
+            "Step through each stage of the plan mentally",
+            "At each stage, ask: what could go wrong? What is uncertain?",
+            "Visualize successful execution in detail",
+            "Visualize failure modes and responses",
+            "Use insights from simulation to improve the plan"
+        ],
+        "benefits": [
+            "Identifies failure points and gaps before costly real-world failure",
+            "Reduces anxiety by creating a rehearsed mental model",
+            "Improves preparation and contingency planning",
+            "Used in elite athletics, surgery, and military planning"
+        ],
+        "limitations": [
+            "Simulation quality depends on the quality of your mental model",
+            "Cannot anticipate genuinely unknown unknowns",
+            "May reinforce overconfidence if simulation is too optimistic"
+        ],
+        "examples": [
+            "Surgeons mentally rehearsing complex operations before entering the operating room",
+            "Athletes using visualization before competition",
+            "Engineers running failure mode simulations before deployment"
+        ],
+        "related_frameworks": [
+            "premortem_analysis",
+            "scenario_planning",
+            "probabilistic_thinking"
+        ],
+        "tags": [
+            "planning",
+            "preparation",
+            "anticipation"
+        ]
+    }
+]
