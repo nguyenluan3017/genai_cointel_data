@@ -35,23 +35,9 @@
             "epistemology",
             "aporia"
         ],
-        "tags": [
-            "dialogue",
-            "epistemology",
-            "education",
-            "critical_thinking",
-            "philosophy",
-            "questioning",
-            "teaching_method",
-            "self_examination",
-            "cross_examination",
-            "inquiry",
-            "facilitation",
-            "coaching",
-            "socrates",
-            "dewey",
-            "dialectical_thinking",
-            "aporia"
+        "categories": [
+            "idea_exploration",
+            "belief_evaluation"
         ]
     },
     {
@@ -95,30 +81,9 @@
             "pragmatism",
             "falsifiability"
         ],
-        "tags": [
-            "knowledge",
-            "certainty",
-            "justification",
-            "science",
-            "philosophy",
-            "knowledge_theory",
-            "truth",
-            "belief",
-            "evidence",
-            "skepticism",
-            "reliability",
-            "justified_belief",
-            "epistemology",
-            "descartes",
-            "locke",
-            "hume",
-            "kant",
-            "gettier",
-            "quine",
-            "socratic_method",
-            "scientific_method",
-            "pragmatism",
-            "falsifiability"
+        "categories": [
+            "belief_evaluation",
+            "idea_exploration"
         ]
     },
     {
@@ -157,26 +122,9 @@
             "utilitarianism",
             "moral_philosophy"
         ],
-        "tags": [
-            "ethics",
-            "morality",
-            "decision_making",
-            "utilitarianism",
-            "philosophy",
-            "outcomes",
-            "welfare",
-            "cost_benefit",
-            "greatest_good",
-            "policy",
-            "effective_altruism",
-            "practical_ethics",
-            "bentham",
-            "mill",
-            "singer",
-            "sidgwick",
-            "ethics_deontology",
-            "ethics_virtue",
-            "moral_philosophy"
+        "categories": [
+            "decision",
+            "conflict_reasoning"
         ]
     },
     {
@@ -214,25 +162,9 @@
             "rights",
             "categorical_imperative"
         ],
-        "tags": [
-            "ethics",
-            "duty",
-            "rights",
-            "morality",
-            "philosophy",
-            "rules",
-            "obligations",
-            "human_rights",
-            "moral_law",
-            "principles",
-            "categorical_imperative",
-            "respect",
-            "kant",
-            "ross",
-            "rawls",
-            "nagel",
-            "ethics_consequentialism",
-            "ethics_virtue"
+        "categories": [
+            "decision",
+            "conflict_reasoning"
         ]
     },
     {
@@ -271,27 +203,9 @@
             "stoicism",
             "eudaimonia"
         ],
-        "tags": [
-            "ethics",
-            "character",
-            "flourishing",
-            "morality",
-            "philosophy",
-            "character_development",
-            "habits",
-            "excellence",
-            "role_models",
-            "wisdom",
-            "aristotle",
-            "moral_education",
-            "eudaimonia",
-            "aquinas",
-            "macintyre",
-            "foot",
-            "hursthouse",
-            "ethics_consequentialism",
-            "ethics_deontology",
-            "stoicism"
+        "categories": [
+            "self_reflection",
+            "decision"
         ]
     },
     {
@@ -331,29 +245,9 @@
             "mindfulness",
             "dialectical_thinking"
         ],
-        "tags": [
-            "resilience",
-            "ethics",
-            "well_being",
-            "ancient_philosophy",
-            "philosophy",
-            "emotional_regulation",
-            "control",
-            "acceptance",
-            "mental_toughness",
-            "practical_wisdom",
-            "marcus_aurelius",
-            "self_discipline",
-            "seneca",
-            "epictetus",
-            "cbt",
-            "cognitive_behavioral_therapy",
-            "citium",
-            "aurelius",
-            "ethics_virtue",
-            "cognitive_reframing",
-            "mindfulness",
-            "dialectical_thinking"
+        "categories": [
+            "self_reflection",
+            "decision"
         ]
     },
     {
@@ -391,26 +285,9 @@
             "scientific_method",
             "instrumentalism"
         ],
-        "tags": [
-            "epistemology",
-            "truth",
-            "problem_solving",
-            "science",
-            "philosophy",
-            "practical_consequences",
-            "experimentation",
-            "what_works",
-            "agile",
-            "adaptive",
-            "testing",
-            "evidence_based",
-            "dewey",
-            "james",
-            "peirce",
-            "rorty",
-            "falsifiability",
-            "scientific_method",
-            "instrumentalism"
+        "categories": [
+            "decision",
+            "idea_exploration"
         ]
     },
     {
@@ -451,28 +328,9 @@
             "phenomenology",
             "absurdism"
         ],
-        "tags": [
-            "freedom",
-            "meaning",
-            "authenticity",
-            "modern_philosophy",
-            "philosophy",
-            "choice",
-            "responsibility",
-            "purpose",
-            "anxiety",
-            "self_creation",
-            "sartre",
-            "kierkegaard",
-            "camus",
-            "absurdism",
-            "metaphysics",
-            "nietzsche",
-            "heidegger",
-            "beauvoir",
-            "ethics_virtue",
-            "stoicism",
-            "phenomenology"
+        "categories": [
+            "self_reflection",
+            "idea_exploration"
         ]
     },
     {
@@ -513,26 +371,9 @@
             "philosophy_of_mind",
             "realism"
         ],
-        "tags": [
-            "metaphysics",
-            "being",
-            "existence",
-            "reality",
-            "philosophy",
-            "categories",
-            "entities",
-            "relations",
-            "database_design",
-            "knowledge_representation",
-            "classification",
-            "information_systems",
-            "descartes",
-            "hegel",
-            "heidegger",
-            "quine",
-            "epistemology",
-            "philosophy_of_mind",
-            "realism"
+        "categories": [
+            "idea_exploration",
+            "belief_evaluation"
         ]
     },
     {
@@ -574,32 +415,9 @@
             "ethics_consequentialism",
             "free_will"
         ],
-        "tags": [
-            "consciousness",
-            "cognition",
-            "AI",
-            "identity",
-            "philosophy",
-            "intelligence",
-            "qualia",
-            "thought",
-            "awareness",
-            "artificial_intelligence",
-            "brain",
-            "subjective_experience",
-            "hard_problem",
-            "chinese_room",
-            "metaphysics",
-            "descartes",
-            "ryle",
-            "dennett",
-            "chalmers",
-            "searle",
-            "nagel",
-            "ontology",
-            "epistemology",
-            "ethics_consequentialism",
-            "free_will"
+        "categories": [
+            "idea_exploration",
+            "self_reflection"
         ]
     },
     {
@@ -638,23 +456,9 @@
             "logic",
             "critical_theory"
         ],
-        "tags": [
-            "logic",
-            "reasoning",
-            "history_of_philosophy",
-            "synthesis",
-            "philosophy",
-            "thesis",
-            "antithesis",
-            "progress",
-            "debate",
-            "contradiction",
-            "resolution",
-            "hegel",
-            "marx",
-            "socratic_method",
-            "dialectical_thinking",
-            "critical_theory"
+        "categories": [
+            "conflict_reasoning",
+            "idea_exploration"
         ]
     },
     {
@@ -692,26 +496,9 @@
             "pragmatism",
             "occams_razor"
         ],
-        "tags": [
-            "science",
-            "epistemology",
-            "critical_thinking",
-            "methodology",
-            "philosophy",
-            "popper",
-            "demarcation",
-            "pseudoscience",
-            "testing",
-            "prediction",
-            "experiment",
-            "refutation",
-            "hypothesis",
-            "kuhn",
-            "lakatos",
-            "feyerabend",
-            "scientific_method",
-            "pragmatism",
-            "occams_razor"
+        "categories": [
+            "belief_evaluation",
+            "idea_exploration"
         ]
     },
     {
@@ -749,24 +536,9 @@
             "rights",
             "justice"
         ],
-        "tags": [
-            "political_philosophy",
-            "justice",
-            "governance",
-            "rights",
-            "philosophy",
-            "government",
-            "consent",
-            "authority",
-            "legitimacy",
-            "civic_duty",
-            "rawls",
-            "hobbes",
-            "locke",
-            "rousseau",
-            "democracy",
-            "political",
-            "ethics_deontology"
+        "categories": [
+            "conflict_reasoning",
+            "decision"
         ]
     },
     {
@@ -805,29 +577,9 @@
             "existentialism",
             "embodied_cognition"
         ],
-        "tags": [
-            "consciousness",
-            "experience",
-            "modern_philosophy",
-            "psychology",
-            "philosophy",
-            "first_person",
-            "lived_experience",
-            "perception",
-            "intentionality",
-            "husserl",
-            "embodiment",
-            "subjective",
-            "user_experience",
-            "metaphysics",
-            "heidegger",
-            "merleau-ponty",
-            "sartre",
-            "beauvoir",
-            "ontology",
-            "philosophy_of_mind",
-            "existentialism",
-            "embodied_cognition"
+        "categories": [
+            "idea_exploration",
+            "self_reflection"
         ]
     },
     {
@@ -868,27 +620,9 @@
             "phenomenology",
             "semiotics"
         ],
-        "tags": [
-            "language",
-            "meaning",
-            "logic",
-            "communication",
-            "philosophy",
-            "reference",
-            "speech_acts",
-            "wittgenstein",
-            "framing",
-            "interpretation",
-            "semantics",
-            "pragmatics",
-            "frege",
-            "russell",
-            "austin",
-            "chomsky",
-            "grice",
-            "epistemology",
-            "phenomenology",
-            "semiotics"
+        "categories": [
+            "idea_exploration",
+            "belief_evaluation"
         ]
     },
     {
@@ -927,26 +661,9 @@
             "phenomenology",
             "philosophy_of_mind"
         ],
-        "tags": [
-            "ethics",
-            "mindfulness",
-            "suffering",
-            "eastern_philosophy",
-            "philosophy",
-            "meditation",
-            "compassion",
-            "impermanence",
-            "detachment",
-            "four_noble_truths",
-            "awareness",
-            "inner_peace",
-            "suffering_reduction",
-            "buddha",
-            "hanh",
-            "stoicism",
-            "ethics_virtue",
-            "phenomenology",
-            "philosophy_of_mind"
+        "categories": [
+            "self_reflection",
+            "belief_evaluation"
         ]
     },
     {
@@ -984,25 +701,9 @@
             "phenomenology",
             "ethics_virtue"
         ],
-        "tags": [
-            "metaphysics",
-            "ethics",
-            "harmony",
-            "eastern_philosophy",
-            "philosophy",
-            "wu_wei",
-            "natural_harmony",
-            "simplicity",
-            "balance",
-            "flow",
-            "leadership",
-            "non_forcing",
-            "laozi",
-            "zhuangzi",
-            "stoicism",
-            "ontology",
-            "phenomenology",
-            "ethics_virtue"
+        "categories": [
+            "self_reflection",
+            "decision"
         ]
     },
     {
@@ -1041,27 +742,10 @@
             "existentialism",
             "social_contract"
         ],
-        "tags": [
-            "ethics",
-            "duty",
-            "action",
-            "eastern_philosophy",
-            "philosophy",
-            "duty_conflict",
-            "selfless_action",
-            "dharma",
-            "devotion",
-            "service",
-            "moral_dilemma",
-            "leadership",
-            "attributed",
-            "text",
-            "shankara",
-            "tilak",
-            "ethics_deontology",
-            "ethics_virtue",
-            "existentialism",
-            "social_contract"
+        "categories": [
+            "self_reflection",
+            "decision",
+            "conflict_reasoning"
         ]
     },
     {
@@ -1099,26 +783,8 @@
             "buddhism",
             "stoicism"
         ],
-        "tags": [
-            "consciousness",
-            "meditation",
-            "ethics",
-            "eastern_philosophy",
-            "philosophy",
-            "mind_training",
-            "concentration",
-            "discipline",
-            "self_observation",
-            "attention",
-            "contemplative",
-            "transformation",
-            "philosophy_of_mind",
-            "commentator",
-            "misra",
-            "vivekananda",
-            "phenomenology",
-            "buddhism",
-            "stoicism"
+        "categories": [
+            "self_reflection"
         ]
     },
     {
@@ -1155,26 +821,9 @@
             "ethics_virtue",
             "philosophy_of_mind"
         ],
-        "tags": [
-            "awareness",
-            "freedom",
-            "self_inquiry",
-            "modern_philosophy",
-            "philosophy",
-            "observation",
-            "conditioning",
-            "inner_freedom",
-            "choiceless_awareness",
-            "authority_questioning",
-            "direct_perception",
-            "ethics",
-            "krishnamurti",
-            "bohm",
-            "huxley",
-            "phenomenology",
-            "stoicism",
-            "ethics_virtue",
-            "philosophy_of_mind"
+        "categories": [
+            "self_reflection",
+            "belief_evaluation"
         ]
     }
 ]

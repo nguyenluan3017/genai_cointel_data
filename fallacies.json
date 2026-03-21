@@ -24,18 +24,9 @@
         "related_biases": [
             "confirmation_bias"
         ],
-        "tags": [
-            "debate",
-            "misrepresentation",
-            "logical_fallacy",
-            "argument_distortion",
-            "manipulation",
-            "debate_tactics",
-            "rhetoric",
-            "dishonest_argument",
-            "misquoting",
-            "high_severity",
-            "very_common_frequency"
+        "categories": [
+            "conflict_reasoning",
+            "belief_evaluation"
         ]
     },
     {
@@ -62,18 +53,9 @@
         "related_biases": [
             "availability_heuristic"
         ],
-        "tags": [
-            "statistics",
-            "causality",
-            "logical_fallacy",
-            "correlation_causation",
-            "reasoning_error",
-            "post_hoc",
-            "confounding_variables",
-            "data_analysis",
-            "scientific_reasoning",
-            "high_severity",
-            "common_frequency"
+        "categories": [
+            "belief_evaluation",
+            "uncertainty"
         ]
     },
     {
@@ -100,18 +82,9 @@
         "related_biases": [
             "negativity_bias"
         ],
-        "tags": [
-            "fear",
-            "prediction",
-            "logical_fallacy",
-            "exaggeration",
-            "causal_chain",
-            "fear_mongering",
-            "policy_debate",
-            "risk_exaggeration",
-            "medium_severity",
-            "common_frequency",
-            "causal_prediction"
+        "categories": [
+            "uncertainty",
+            "belief_evaluation"
         ]
     },
     {
@@ -138,18 +111,9 @@
         "related_biases": [
             "halo_effect"
         ],
-        "tags": [
-            "debate",
-            "character_attack",
-            "logical_fallacy",
-            "personal_attack",
-            "deflection",
-            "debate_tactics",
-            "credibility",
-            "rhetoric",
-            "attacking_character",
-            "high_severity",
-            "very_common_frequency"
+        "categories": [
+            "conflict_reasoning",
+            "belief_evaluation"
         ]
     },
     {
@@ -176,17 +140,9 @@
         "related_biases": [
             "self_serving_bias"
         ],
-        "tags": [
-            "fairness",
-            "consistency",
-            "logical_fallacy",
-            "double_standard",
-            "hypocrisy",
-            "inconsistency",
-            "exemption",
-            "unfair_argument",
-            "high_severity",
-            "common_frequency"
+        "categories": [
+            "conflict_reasoning",
+            "belief_evaluation"
         ]
     },
     {
@@ -213,19 +169,9 @@
         "related_biases": [
             "framing_effect"
         ],
-        "tags": [
-            "debate",
-            "questioning",
-            "logical_fallacy",
-            "manipulation",
-            "assumption",
-            "debate_tactics",
-            "trapping",
-            "presupposition",
-            "leading_question",
-            "medium_severity",
-            "common_frequency",
-            "question_trap"
+        "categories": [
+            "conflict_reasoning",
+            "belief_evaluation"
         ]
     },
     {
@@ -252,18 +198,9 @@
         "related_biases": [
             "availability_heuristic"
         ],
-        "tags": [
-            "probability",
-            "randomness",
-            "logical_fallacy",
-            "probability_error",
-            "chance",
-            "independent_events",
-            "gambling",
-            "risk",
-            "statistical_reasoning",
-            "medium_severity",
-            "common_frequency"
+        "categories": [
+            "uncertainty",
+            "belief_evaluation"
         ]
     },
     {
@@ -290,18 +227,9 @@
         "related_biases": [
             "groupthink"
         ],
-        "tags": [
-            "social_influence",
-            "logical_fallacy",
-            "popularity",
-            "peer_pressure",
-            "herd_mentality",
-            "appeal_to_masses",
-            "social_proof",
-            "conformity",
-            "medium_severity",
-            "very_common_frequency",
-            "social_reasoning"
+        "categories": [
+            "belief_evaluation",
+            "conflict_reasoning"
         ]
     },
     {
@@ -328,16 +256,9 @@
         "related_biases": [
             "halo_effect"
         ],
-        "tags": [
-            "authority",
-            "logical_fallacy",
-            "expertise",
-            "credibility",
-            "independent_evidence",
-            "critical_evaluation",
-            "trust",
-            "medium_severity",
-            "common_frequency"
+        "categories": [
+            "belief_evaluation",
+            "conflict_reasoning"
         ]
     },
     {
@@ -364,19 +285,9 @@
         "related_biases": [
             "belief_bias"
         ],
-        "tags": [
-            "logic",
-            "systems",
-            "logical_fallacy",
-            "generalization",
-            "part_whole",
-            "aggregate",
-            "emergence",
-            "ecological_fallacy",
-            "inference_error",
-            "medium_severity",
-            "moderate_frequency",
-            "part_whole_error"
+        "categories": [
+            "belief_evaluation",
+            "idea_exploration"
         ]
     },
     {
@@ -402,18 +313,9 @@
         "related_biases": [
             "in_group_bias"
         ],
-        "tags": [
-            "identity",
-            "goalpost_shift",
-            "logical_fallacy",
-            "moving_goalposts",
-            "definition_change",
-            "unfalsifiable",
-            "ad_hoc",
-            "group_identity",
-            "high_severity",
-            "common_frequency",
-            "purity_test"
+        "categories": [
+            "belief_evaluation",
+            "conflict_reasoning"
         ]
     },
     {
@@ -439,18 +341,9 @@
         "related_biases": [
             "in_group_bias"
         ],
-        "tags": [
-            "source_critique",
-            "evidence",
-            "logical_fallacy",
-            "origin",
-            "source_bias",
-            "irrelevant_reasoning",
-            "judging_by_origin",
-            "provenance",
-            "medium_severity",
-            "common_frequency",
-            "source_based_judgment"
+        "categories": [
+            "belief_evaluation",
+            "conflict_reasoning"
         ]
     },
     {
@@ -476,19 +369,9 @@
             "framing_effect",
             "anchoring"
         ],
-        "tags": [
-            "decision_making",
-            "polarization",
-            "logical_fallacy",
-            "binary_thinking",
-            "oversimplification",
-            "either_or",
-            "false_dichotomy",
-            "excluded_middle",
-            "nuance",
-            "high_severity",
-            "very_common_frequency",
-            "false_choices"
+        "categories": [
+            "decision",
+            "conflict_reasoning"
         ]
     },
     {
@@ -515,17 +398,8 @@
         "related_biases": [
             "belief_bias"
         ],
-        "tags": [
-            "logic",
-            "circularity",
-            "logical_fallacy",
-            "circular_reasoning",
-            "tautology",
-            "self_referential",
-            "unsupported_claim",
-            "assumed_conclusion",
-            "medium_severity",
-            "moderate_frequency"
+        "categories": [
+            "belief_evaluation"
         ]
     },
     {
@@ -551,18 +425,8 @@
         "related_biases": [
             "status_quo_bias"
         ],
-        "tags": [
-            "naturalism",
-            "health_claims",
-            "logical_fallacy",
-            "naturalistic_fallacy",
-            "is_ought",
-            "natural_vs_artificial",
-            "health",
-            "organic",
-            "food_debate",
-            "medium_severity",
-            "common_frequency"
+        "categories": [
+            "belief_evaluation"
         ]
     },
     {
@@ -589,19 +453,9 @@
         "related_biases": [
             "availability_heuristic"
         ],
-        "tags": [
-            "evidence",
-            "statistics",
-            "logical_fallacy",
-            "evidence_quality",
-            "data",
-            "generalization",
-            "personal_experience",
-            "testimony",
-            "sample_size",
-            "medium_severity",
-            "very_common_frequency",
-            "evidence_error"
+        "categories": [
+            "belief_evaluation",
+            "uncertainty"
         ]
     },
     {
@@ -628,17 +482,9 @@
         "related_biases": [
             "confirmation_bias"
         ],
-        "tags": [
-            "statistics",
-            "cherry_picking",
-            "logical_fallacy",
-            "data_mining",
-            "selection_bias",
-            "pattern_recognition",
-            "p_hacking",
-            "research_methodology",
-            "high_severity",
-            "common_frequency"
+        "categories": [
+            "belief_evaluation",
+            "uncertainty"
         ]
     },
     {
@@ -664,18 +510,9 @@
         "related_biases": [
             "framing_effect"
         ],
-        "tags": [
-            "negotiation",
-            "truth_criteria",
-            "logical_fallacy",
-            "false_balance",
-            "compromise",
-            "centrism",
-            "argument_to_moderation",
-            "balance_fallacy",
-            "medium_severity",
-            "moderate_frequency",
-            "compromise_fallacy"
+        "categories": [
+            "conflict_reasoning",
+            "belief_evaluation"
         ]
     },
     {
@@ -701,19 +538,9 @@
         "related_biases": [
             "negativity_bias"
         ],
-        "tags": [
-            "persuasion",
-            "emotion",
-            "logical_fallacy",
-            "manipulation",
-            "rhetoric",
-            "propaganda",
-            "emotional_reasoning",
-            "pathos",
-            "fear_mongering",
-            "high_severity",
-            "very_common_frequency",
-            "emotional_manipulation"
+        "categories": [
+            "belief_evaluation",
+            "conflict_reasoning"
         ]
     },
     {
@@ -739,16 +566,9 @@
         "related_biases": [
             "self_serving_bias"
         ],
-        "tags": [
-            "debate",
-            "deflection",
-            "logical_fallacy",
-            "whataboutism",
-            "hypocrisy",
-            "deflection_tactic",
-            "criticism_avoidance",
-            "medium_severity",
-            "common_frequency"
+        "categories": [
+            "conflict_reasoning",
+            "belief_evaluation"
         ]
     },
     {
@@ -774,17 +594,9 @@
         "related_biases": [
             "dunning_kruger_effect"
         ],
-        "tags": [
-            "epistemology",
-            "complexity",
-            "logical_fallacy",
-            "argument_from_ignorance",
-            "lack_of_imagination",
-            "understanding",
-            "arrogance",
-            "medium_severity",
-            "common_frequency",
-            "understanding_gap"
+        "categories": [
+            "belief_evaluation",
+            "self_reflection"
         ]
     },
     {
@@ -811,18 +623,9 @@
         "related_biases": [
             "confirmation_bias"
         ],
-        "tags": [
-            "evidence",
-            "argumentation",
-            "logical_fallacy",
-            "evidence_responsibility",
-            "unfalsifiable",
-            "scientific_method",
-            "claims",
-            "default_position",
-            "high_severity",
-            "common_frequency",
-            "evidential_responsibility"
+        "categories": [
+            "belief_evaluation",
+            "conflict_reasoning"
         ]
     },
     {
@@ -849,19 +652,9 @@
         "related_biases": [
             "framing_effect"
         ],
-        "tags": [
-            "language",
-            "semantics",
-            "logical_fallacy",
-            "equivocation",
-            "vagueness",
-            "word_games",
-            "interpretation",
-            "double_meaning",
-            "linguistic_confusion",
-            "medium_severity",
-            "moderate_frequency",
-            "language_trick"
+        "categories": [
+            "belief_evaluation",
+            "conflict_reasoning"
         ]
     },
     {
@@ -887,17 +680,9 @@
         "related_biases": [
             "belief_bias"
         ],
-        "tags": [
-            "logic",
-            "meta_reasoning",
-            "logical_fallacy",
-            "meta_argument",
-            "truth_vs_validity",
-            "argument_evaluation",
-            "error_in_reasoning",
-            "medium_severity",
-            "moderate_frequency",
-            "meta_reasoning_error"
+        "categories": [
+            "belief_evaluation",
+            "self_reflection"
         ]
     }
 ]

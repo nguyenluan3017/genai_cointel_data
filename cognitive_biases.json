@@ -30,21 +30,9 @@
             "framing_effect",
             "sunk_cost_fallacy"
         ],
-        "tags": [
-            "negotiation",
-            "pricing",
-            "judgment",
-            "cognitive_bias",
-            "first_impression",
-            "estimation",
-            "numerical_judgment",
-            "initial_value",
-            "reference_point",
-            "mental_shortcut",
-            "heuristic",
-            "high_severity",
-            "very_common_frequency",
-            "decision_making"
+        "categories": [
+            "decision",
+            "belief_evaluation"
         ]
     },
     {
@@ -80,19 +68,9 @@
             "loss_aversion",
             "framing_effect"
         ],
-        "tags": [
-            "economics",
-            "decision_making",
-            "investment",
-            "cognitive_bias",
-            "persistence",
-            "project_management",
-            "resource_allocation",
-            "escalation_of_commitment",
-            "loss_aversion",
-            "irrational_persistence",
-            "high_severity",
-            "very_common_frequency"
+        "categories": [
+            "decision",
+            "self_reflection"
         ]
     },
     {
@@ -127,20 +105,9 @@
             "negativity_bias",
             "representativeness_heuristic"
         ],
-        "tags": [
-            "risk_assessment",
-            "memory",
-            "probability",
-            "cognitive_bias",
-            "mental_shortcut",
-            "frequency_estimation",
-            "media_influence",
-            "vivid_memory",
-            "salience",
-            "heuristic",
-            "overestimation",
-            "high_severity",
-            "very_common_frequency"
+        "categories": [
+            "uncertainty",
+            "belief_evaluation"
         ]
     },
     {
@@ -174,20 +141,9 @@
             "fundamental_attribution_error",
             "false_consensus_effect"
         ],
-        "tags": [
-            "communication",
-            "teaching",
-            "expertise",
-            "cognitive_bias",
-            "empathy_gap",
-            "education",
-            "leadership_communication",
-            "knowledge_gap",
-            "perspective_taking",
-            "onboarding",
-            "medium_severity",
-            "very_common_frequency",
-            "social"
+        "categories": [
+            "self_reflection",
+            "conflict_reasoning"
         ]
     },
     {
@@ -222,20 +178,9 @@
             "backfire_effect",
             "motivated_reasoning"
         ],
-        "tags": [
-            "reasoning",
-            "belief",
-            "epistemology",
-            "cognitive_bias",
-            "echo_chamber",
-            "selective_attention",
-            "scientific_method",
-            "research",
-            "information_filtering",
-            "evidence_evaluation",
-            "polarization",
-            "high_severity",
-            "very_common_frequency"
+        "categories": [
+            "belief_evaluation",
+            "self_reflection"
         ]
     },
     {
@@ -270,20 +215,9 @@
             "imposter_syndrome",
             "circle_of_competence"
         ],
-        "tags": [
-            "metacognition",
-            "self_assessment",
-            "expertise",
-            "cognitive_bias",
-            "overconfidence",
-            "competence",
-            "learning",
-            "impostor_syndrome",
-            "calibration",
-            "skill_assessment",
-            "beginner",
-            "high_severity",
-            "very_common_frequency"
+        "categories": [
+            "self_reflection",
+            "belief_evaluation"
         ]
     },
     {
@@ -317,18 +251,9 @@
             "confirmation_bias",
             "motivated_reasoning"
         ],
-        "tags": [
-            "logic",
-            "reasoning",
-            "epistemology",
-            "cognitive_bias",
-            "logical_validity",
-            "argument_evaluation",
-            "critical_thinking",
-            "syllogism",
-            "deductive_reasoning",
-            "high_severity",
-            "common_frequency"
+        "categories": [
+            "belief_evaluation",
+            "self_reflection"
         ]
     },
     {
@@ -363,19 +288,9 @@
             "in_group_bias",
             "just_world_hypothesis"
         ],
-        "tags": [
-            "self_assessment",
-            "attribution",
-            "accountability",
-            "cognitive_bias",
-            "blame",
-            "credit",
-            "success_failure",
-            "learning_from_failure",
-            "personal_growth",
-            "leadership",
-            "medium_severity",
-            "very_common_frequency"
+        "categories": [
+            "self_reflection",
+            "conflict_reasoning"
         ]
     },
     {
@@ -410,20 +325,9 @@
             "belief_bias",
             "identity_protective_cognition"
         ],
-        "tags": [
-            "persuasion",
-            "belief_change",
-            "identity",
-            "cognitive_bias",
-            "resistance_to_change",
-            "debunking",
-            "misinformation",
-            "motivated_reasoning",
-            "defensive_thinking",
-            "belief_persistence",
-            "high_severity",
-            "common_frequency",
-            "reasoning"
+        "categories": [
+            "belief_evaluation",
+            "conflict_reasoning"
         ]
     },
     {
@@ -457,19 +361,9 @@
             "confirmation_bias",
             "belief_bias"
         ],
-        "tags": [
-            "pseudoscience",
-            "self_assessment",
-            "manipulation",
-            "cognitive_bias",
-            "gullibility",
-            "flattery",
-            "cold_reading",
-            "horoscope",
-            "personality_tests",
-            "vague_statements",
-            "medium_severity",
-            "common_frequency"
+        "categories": [
+            "belief_evaluation",
+            "self_reflection"
         ]
     },
     {
@@ -504,21 +398,9 @@
             "conformity_bias",
             "in_group_bias"
         ],
-        "tags": [
-            "group_dynamics",
-            "decision_making",
-            "leadership",
-            "cognitive_bias",
-            "team_dynamics",
-            "conformity",
-            "organizational_behavior",
-            "dissent",
-            "consensus",
-            "collective_decision",
-            "meeting",
-            "high_severity",
-            "common_frequency",
-            "social"
+        "categories": [
+            "conflict_reasoning",
+            "decision"
         ]
     },
     {
@@ -553,21 +435,9 @@
             "pessimism_bias",
             "availability_heuristic"
         ],
-        "tags": [
-            "emotional_reasoning",
-            "risk",
-            "well_being",
-            "cognitive_bias",
-            "fear",
-            "loss_aversion",
-            "pessimism",
-            "threat_detection",
-            "emotional_impact",
-            "risk_perception",
-            "anxiety",
-            "high_severity",
-            "very_common_frequency",
-            "emotional"
+        "categories": [
+            "decision",
+            "self_reflection"
         ]
     },
     {
@@ -601,20 +471,9 @@
             "negativity_bias",
             "nostalgia_bias"
         ],
-        "tags": [
-            "temporal_reasoning",
-            "history",
-            "change",
-            "cognitive_bias",
-            "nostalgia",
-            "golden_age",
-            "progress",
-            "pessimism",
-            "historical_comparison",
-            "societal_change",
-            "medium_severity",
-            "common_frequency",
-            "temporal"
+        "categories": [
+            "belief_evaluation",
+            "self_reflection"
         ]
     },
     {
@@ -649,20 +508,9 @@
             "sunk_cost_fallacy",
             "priming"
         ],
-        "tags": [
-            "communication",
-            "persuasion",
-            "decision_making",
-            "cognitive_bias",
-            "presentation",
-            "wording",
-            "marketing",
-            "perspective",
-            "advertising",
-            "language_influence",
-            "spin",
-            "high_severity",
-            "very_common_frequency"
+        "categories": [
+            "decision",
+            "belief_evaluation"
         ]
     },
     {
@@ -697,20 +545,9 @@
             "halo_effect",
             "in_group_bias"
         ],
-        "tags": [
-            "social_perception",
-            "attribution",
-            "empathy",
-            "cognitive_bias",
-            "character_judgment",
-            "situational_factors",
-            "interpersonal",
-            "perspective_taking",
-            "blame",
-            "social_psychology",
-            "high_severity",
-            "very_common_frequency",
-            "social"
+        "categories": [
+            "conflict_reasoning",
+            "self_reflection"
         ]
     },
     {
@@ -745,21 +582,9 @@
             "beauty_bias",
             "horn_effect"
         ],
-        "tags": [
-            "hiring",
-            "social_perception",
-            "judgment",
-            "cognitive_bias",
-            "first_impression",
-            "attractiveness",
-            "recruitment",
-            "evaluation",
-            "performance_review",
-            "overall_impression",
-            "branding",
-            "medium_severity",
-            "very_common_frequency",
-            "social"
+        "categories": [
+            "decision",
+            "belief_evaluation"
         ]
     },
     {
@@ -794,18 +619,9 @@
             "planning_fallacy",
             "overconfidence_bias"
         ],
-        "tags": [
-            "risk",
-            "planning",
-            "self_assessment",
-            "cognitive_bias",
-            "overconfidence",
-            "planning_fallacy",
-            "risk_underestimation",
-            "unrealistic_expectations",
-            "project_planning",
-            "medium_severity",
-            "very_common_frequency"
+        "categories": [
+            "uncertainty",
+            "self_reflection"
         ]
     },
     {
@@ -840,19 +656,9 @@
             "sunk_cost_fallacy",
             "anxiety"
         ],
-        "tags": [
-            "risk_aversion",
-            "motivation",
-            "well_being",
-            "cognitive_bias",
-            "anxiety",
-            "missed_opportunities",
-            "catastrophizing",
-            "fear_of_failure",
-            "inaction",
-            "medium_severity",
-            "common_frequency",
-            "self_assessment"
+        "categories": [
+            "uncertainty",
+            "self_reflection"
         ]
     },
     {
@@ -887,19 +693,9 @@
             "self_serving_bias",
             "in_group_bias"
         ],
-        "tags": [
-            "social_justice",
-            "empathy",
-            "attribution",
-            "cognitive_bias",
-            "victim_blaming",
-            "moral_reasoning",
-            "systemic_thinking",
-            "inequality",
-            "privilege",
-            "high_severity",
-            "common_frequency",
-            "social"
+        "categories": [
+            "belief_evaluation",
+            "conflict_reasoning"
         ]
     },
     {
@@ -934,21 +730,9 @@
             "halo_effect",
             "tribalism"
         ],
-        "tags": [
-            "tribalism",
-            "fairness",
-            "social_identity",
-            "cognitive_bias",
-            "discrimination",
-            "favoritism",
-            "team_bias",
-            "us_vs_them",
-            "diversity",
-            "prejudice",
-            "hiring",
-            "high_severity",
-            "very_common_frequency",
-            "social"
+        "categories": [
+            "conflict_reasoning",
+            "self_reflection"
         ]
     },
     {
@@ -982,19 +766,9 @@
             "confirmation_bias",
             "belief_bias"
         ],
-        "tags": [
-            "medicine",
-            "perception",
-            "evidence",
-            "cognitive_bias",
-            "expectation",
-            "health",
-            "clinical_trials",
-            "mind_body",
-            "suggestion",
-            "treatment_evaluation",
-            "medium_severity",
-            "common_frequency"
+        "categories": [
+            "belief_evaluation",
+            "uncertainty"
         ]
     },
     {
@@ -1028,19 +802,9 @@
             "diffusion_of_responsibility",
             "conformity_bias"
         ],
-        "tags": [
-            "social_influence",
-            "emergency",
-            "moral_responsibility",
-            "cognitive_bias",
-            "diffusion_of_responsibility",
-            "helping_behavior",
-            "collective_inaction",
-            "emergency_response",
-            "moral_courage",
-            "high_severity",
-            "common_frequency",
-            "social"
+        "categories": [
+            "decision",
+            "self_reflection"
         ]
     },
     {
@@ -1074,20 +838,9 @@
             "conformity_bias",
             "backfire_effect"
         ],
-        "tags": [
-            "autonomy",
-            "persuasion",
-            "motivation",
-            "cognitive_bias",
-            "freedom",
-            "resistance",
-            "compliance",
-            "reverse_psychology",
-            "authority",
-            "defiance",
-            "medium_severity",
-            "common_frequency",
-            "motivational"
+        "categories": [
+            "self_reflection",
+            "conflict_reasoning"
         ]
     },
     {
@@ -1122,19 +875,8 @@
             "social_anxiety",
             "self_serving_bias"
         ],
-        "tags": [
-            "self_consciousness",
-            "social_anxiety",
-            "self_perception",
-            "cognitive_bias",
-            "social_awareness",
-            "self_focus",
-            "social_psychology",
-            "ego_centrism",
-            "public_speaking",
-            "medium_severity",
-            "very_common_frequency",
-            "self_assessment"
+        "categories": [
+            "self_reflection"
         ]
     }
 ]
