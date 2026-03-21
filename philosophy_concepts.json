@@ -39,7 +39,19 @@
             "dialogue",
             "epistemology",
             "education",
-            "critical_thinking"
+            "critical_thinking",
+            "philosophy",
+            "questioning",
+            "teaching_method",
+            "self_examination",
+            "cross_examination",
+            "inquiry",
+            "facilitation",
+            "coaching",
+            "socrates",
+            "dewey",
+            "dialectical_thinking",
+            "aporia"
         ]
     },
     {
@@ -87,7 +99,26 @@
             "knowledge",
             "certainty",
             "justification",
-            "science"
+            "science",
+            "philosophy",
+            "knowledge_theory",
+            "truth",
+            "belief",
+            "evidence",
+            "skepticism",
+            "reliability",
+            "justified_belief",
+            "epistemology",
+            "descartes",
+            "locke",
+            "hume",
+            "kant",
+            "gettier",
+            "quine",
+            "socratic_method",
+            "scientific_method",
+            "pragmatism",
+            "falsifiability"
         ]
     },
     {
@@ -130,7 +161,22 @@
             "ethics",
             "morality",
             "decision_making",
-            "utilitarianism"
+            "utilitarianism",
+            "philosophy",
+            "outcomes",
+            "welfare",
+            "cost_benefit",
+            "greatest_good",
+            "policy",
+            "effective_altruism",
+            "practical_ethics",
+            "bentham",
+            "mill",
+            "singer",
+            "sidgwick",
+            "ethics_deontology",
+            "ethics_virtue",
+            "moral_philosophy"
         ]
     },
     {
@@ -172,7 +218,21 @@
             "ethics",
             "duty",
             "rights",
-            "morality"
+            "morality",
+            "philosophy",
+            "rules",
+            "obligations",
+            "human_rights",
+            "moral_law",
+            "principles",
+            "categorical_imperative",
+            "respect",
+            "kant",
+            "ross",
+            "rawls",
+            "nagel",
+            "ethics_consequentialism",
+            "ethics_virtue"
         ]
     },
     {
@@ -215,7 +275,23 @@
             "ethics",
             "character",
             "flourishing",
-            "morality"
+            "morality",
+            "philosophy",
+            "character_development",
+            "habits",
+            "excellence",
+            "role_models",
+            "wisdom",
+            "aristotle",
+            "moral_education",
+            "eudaimonia",
+            "aquinas",
+            "macintyre",
+            "foot",
+            "hursthouse",
+            "ethics_consequentialism",
+            "ethics_deontology",
+            "stoicism"
         ]
     },
     {
@@ -259,7 +335,25 @@
             "resilience",
             "ethics",
             "well_being",
-            "ancient_philosophy"
+            "ancient_philosophy",
+            "philosophy",
+            "emotional_regulation",
+            "control",
+            "acceptance",
+            "mental_toughness",
+            "practical_wisdom",
+            "marcus_aurelius",
+            "self_discipline",
+            "seneca",
+            "epictetus",
+            "cbt",
+            "cognitive_behavioral_therapy",
+            "citium",
+            "aurelius",
+            "ethics_virtue",
+            "cognitive_reframing",
+            "mindfulness",
+            "dialectical_thinking"
         ]
     },
     {
@@ -301,7 +395,22 @@
             "epistemology",
             "truth",
             "problem_solving",
-            "science"
+            "science",
+            "philosophy",
+            "practical_consequences",
+            "experimentation",
+            "what_works",
+            "agile",
+            "adaptive",
+            "testing",
+            "evidence_based",
+            "dewey",
+            "james",
+            "peirce",
+            "rorty",
+            "falsifiability",
+            "scientific_method",
+            "instrumentalism"
         ]
     },
     {
@@ -346,7 +455,24 @@
             "freedom",
             "meaning",
             "authenticity",
-            "modern_philosophy"
+            "modern_philosophy",
+            "philosophy",
+            "choice",
+            "responsibility",
+            "purpose",
+            "anxiety",
+            "self_creation",
+            "sartre",
+            "kierkegaard",
+            "camus",
+            "absurdism",
+            "metaphysics",
+            "nietzsche",
+            "heidegger",
+            "beauvoir",
+            "ethics_virtue",
+            "stoicism",
+            "phenomenology"
         ]
     },
     {
@@ -391,7 +517,22 @@
             "metaphysics",
             "being",
             "existence",
-            "reality"
+            "reality",
+            "philosophy",
+            "categories",
+            "entities",
+            "relations",
+            "database_design",
+            "knowledge_representation",
+            "classification",
+            "information_systems",
+            "descartes",
+            "hegel",
+            "heidegger",
+            "quine",
+            "epistemology",
+            "philosophy_of_mind",
+            "realism"
         ]
     },
     {
@@ -437,7 +578,28 @@
             "consciousness",
             "cognition",
             "AI",
-            "identity"
+            "identity",
+            "philosophy",
+            "intelligence",
+            "qualia",
+            "thought",
+            "awareness",
+            "artificial_intelligence",
+            "brain",
+            "subjective_experience",
+            "hard_problem",
+            "chinese_room",
+            "metaphysics",
+            "descartes",
+            "ryle",
+            "dennett",
+            "chalmers",
+            "searle",
+            "nagel",
+            "ontology",
+            "epistemology",
+            "ethics_consequentialism",
+            "free_will"
         ]
     },
     {
@@ -480,7 +642,19 @@
             "logic",
             "reasoning",
             "history_of_philosophy",
-            "synthesis"
+            "synthesis",
+            "philosophy",
+            "thesis",
+            "antithesis",
+            "progress",
+            "debate",
+            "contradiction",
+            "resolution",
+            "hegel",
+            "marx",
+            "socratic_method",
+            "dialectical_thinking",
+            "critical_theory"
         ]
     },
     {
@@ -522,7 +696,22 @@
             "science",
             "epistemology",
             "critical_thinking",
-            "methodology"
+            "methodology",
+            "philosophy",
+            "popper",
+            "demarcation",
+            "pseudoscience",
+            "testing",
+            "prediction",
+            "experiment",
+            "refutation",
+            "hypothesis",
+            "kuhn",
+            "lakatos",
+            "feyerabend",
+            "scientific_method",
+            "pragmatism",
+            "occams_razor"
         ]
     },
     {
@@ -564,7 +753,20 @@
             "political_philosophy",
             "justice",
             "governance",
-            "rights"
+            "rights",
+            "philosophy",
+            "government",
+            "consent",
+            "authority",
+            "legitimacy",
+            "civic_duty",
+            "rawls",
+            "hobbes",
+            "locke",
+            "rousseau",
+            "democracy",
+            "political",
+            "ethics_deontology"
         ]
     },
     {
@@ -607,7 +809,25 @@
             "consciousness",
             "experience",
             "modern_philosophy",
-            "psychology"
+            "psychology",
+            "philosophy",
+            "first_person",
+            "lived_experience",
+            "perception",
+            "intentionality",
+            "husserl",
+            "embodiment",
+            "subjective",
+            "user_experience",
+            "metaphysics",
+            "heidegger",
+            "merleau-ponty",
+            "sartre",
+            "beauvoir",
+            "ontology",
+            "philosophy_of_mind",
+            "existentialism",
+            "embodied_cognition"
         ]
     },
     {
@@ -652,7 +872,23 @@
             "language",
             "meaning",
             "logic",
-            "communication"
+            "communication",
+            "philosophy",
+            "reference",
+            "speech_acts",
+            "wittgenstein",
+            "framing",
+            "interpretation",
+            "semantics",
+            "pragmatics",
+            "frege",
+            "russell",
+            "austin",
+            "chomsky",
+            "grice",
+            "epistemology",
+            "phenomenology",
+            "semiotics"
         ]
     },
     {
@@ -695,7 +931,22 @@
             "ethics",
             "mindfulness",
             "suffering",
-            "eastern_philosophy"
+            "eastern_philosophy",
+            "philosophy",
+            "meditation",
+            "compassion",
+            "impermanence",
+            "detachment",
+            "four_noble_truths",
+            "awareness",
+            "inner_peace",
+            "suffering_reduction",
+            "buddha",
+            "hanh",
+            "stoicism",
+            "ethics_virtue",
+            "phenomenology",
+            "philosophy_of_mind"
         ]
     },
     {
@@ -737,7 +988,21 @@
             "metaphysics",
             "ethics",
             "harmony",
-            "eastern_philosophy"
+            "eastern_philosophy",
+            "philosophy",
+            "wu_wei",
+            "natural_harmony",
+            "simplicity",
+            "balance",
+            "flow",
+            "leadership",
+            "non_forcing",
+            "laozi",
+            "zhuangzi",
+            "stoicism",
+            "ontology",
+            "phenomenology",
+            "ethics_virtue"
         ]
     },
     {
@@ -780,7 +1045,23 @@
             "ethics",
             "duty",
             "action",
-            "eastern_philosophy"
+            "eastern_philosophy",
+            "philosophy",
+            "duty_conflict",
+            "selfless_action",
+            "dharma",
+            "devotion",
+            "service",
+            "moral_dilemma",
+            "leadership",
+            "attributed",
+            "text",
+            "shankara",
+            "tilak",
+            "ethics_deontology",
+            "ethics_virtue",
+            "existentialism",
+            "social_contract"
         ]
     },
     {
@@ -822,7 +1103,22 @@
             "consciousness",
             "meditation",
             "ethics",
-            "eastern_philosophy"
+            "eastern_philosophy",
+            "philosophy",
+            "mind_training",
+            "concentration",
+            "discipline",
+            "self_observation",
+            "attention",
+            "contemplative",
+            "transformation",
+            "philosophy_of_mind",
+            "commentator",
+            "misra",
+            "vivekananda",
+            "phenomenology",
+            "buddhism",
+            "stoicism"
         ]
     },
     {
@@ -863,7 +1159,22 @@
             "awareness",
             "freedom",
             "self_inquiry",
-            "modern_philosophy"
+            "modern_philosophy",
+            "philosophy",
+            "observation",
+            "conditioning",
+            "inner_freedom",
+            "choiceless_awareness",
+            "authority_questioning",
+            "direct_perception",
+            "ethics",
+            "krishnamurti",
+            "bohm",
+            "huxley",
+            "phenomenology",
+            "stoicism",
+            "ethics_virtue",
+            "philosophy_of_mind"
         ]
     }
 ]

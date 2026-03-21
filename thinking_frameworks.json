@@ -37,7 +37,22 @@
         "tags": [
             "innovation",
             "problem_solving",
-            "critical_thinking"
+            "critical_thinking",
+            "analysis",
+            "decomposition",
+            "assumptions",
+            "fundamentals",
+            "reasoning",
+            "from_scratch",
+            "foundational",
+            "questioning",
+            "deep_analysis",
+            "root_cause",
+            "engineering",
+            "socratic_method",
+            "scientific_method",
+            "inversion",
+            "cost_analysis"
         ]
     },
     {
@@ -78,7 +93,22 @@
         "tags": [
             "strategy",
             "systems_thinking",
-            "decision_making"
+            "decision_making",
+            "consequences",
+            "long_term",
+            "foresight",
+            "cascading_effects",
+            "unintended_consequences",
+            "ripple_effects",
+            "planning",
+            "policy",
+            "side_effects",
+            "anticipation",
+            "inversion",
+            "causal_loop_diagrams",
+            "governance",
+            "cost_analysis",
+            "engineering"
         ]
     },
     {
@@ -118,7 +148,21 @@
         "tags": [
             "risk_management",
             "decision_making",
-            "problem_solving"
+            "problem_solving",
+            "failure_analysis",
+            "avoidance",
+            "premortem",
+            "contrarian",
+            "backwards_thinking",
+            "failure_modes",
+            "reverse_engineering",
+            "worst_case",
+            "defensive",
+            "finance",
+            "second_order_thinking",
+            "premortem_analysis",
+            "via_negativa",
+            "investing"
         ]
     },
     {
@@ -159,7 +203,20 @@
         "tags": [
             "epistemology",
             "hypothesis_testing",
-            "parsimony"
+            "parsimony",
+            "simplicity",
+            "science",
+            "explanation",
+            "debugging",
+            "diagnosis",
+            "complexity_reduction",
+            "minimal_assumptions",
+            "principle_of_parsimony",
+            "troubleshooting",
+            "scientific_method",
+            "first_principles_thinking",
+            "falsifiability",
+            "software"
         ]
     },
     {
@@ -200,7 +257,20 @@
         "tags": [
             "interpersonal",
             "attribution",
-            "conflict_resolution"
+            "conflict_resolution",
+            "empathy",
+            "judgment",
+            "charitable_interpretation",
+            "leadership",
+            "social_intelligence",
+            "miscommunication",
+            "error_vs_malice",
+            "understanding",
+            "trust",
+            "fundamental_attribution_error",
+            "steelmanning",
+            "policy",
+            "governance"
         ]
     },
     {
@@ -241,7 +311,21 @@
         "tags": [
             "self_awareness",
             "expertise",
-            "decision_making"
+            "decision_making",
+            "humility",
+            "delegation",
+            "intellectual_honesty",
+            "knowledge_boundaries",
+            "specialization",
+            "knowing_limits",
+            "investing",
+            "dunning_kruger_awareness",
+            "hanlons_razor",
+            "dunning_kruger_effect",
+            "deliberate_practice",
+            "finance",
+            "software",
+            "debugging"
         ]
     },
     {
@@ -281,7 +365,18 @@
         "tags": [
             "epistemology",
             "mental_models",
-            "critical_thinking"
+            "critical_thinking",
+            "abstraction",
+            "modeling",
+            "reality_testing",
+            "approximation",
+            "model_limitations",
+            "empirical_testing",
+            "uncertainty",
+            "representation",
+            "scientific_method",
+            "falsifiability",
+            "first_principles_thinking"
         ]
     },
     {
@@ -323,7 +418,18 @@
         "tags": [
             "complexity",
             "systems",
-            "strategy"
+            "strategy",
+            "feedback_loops",
+            "emergent_behavior",
+            "holistic",
+            "interconnection",
+            "leverage_points",
+            "network_effects",
+            "ecology",
+            "organizational",
+            "dynamics",
+            "second_order_thinking",
+            "causal_loop_diagrams"
         ]
     },
     {
@@ -365,7 +471,22 @@
         "tags": [
             "uncertainty",
             "statistics",
-            "decision_making"
+            "decision_making",
+            "bayesian",
+            "risk_assessment",
+            "prediction",
+            "calibration",
+            "expected_value",
+            "forecasting",
+            "odds",
+            "likelihood",
+            "quantitative",
+            "superforecasting",
+            "bayesian_updating",
+            "expected_value_thinking",
+            "scenario_planning",
+            "investing",
+            "finance"
         ]
     },
     {
@@ -407,7 +528,20 @@
         "tags": [
             "argumentation",
             "critical_thinking",
-            "intellectual_honesty"
+            "intellectual_honesty",
+            "empathy",
+            "debate",
+            "fairness",
+            "charitable_interpretation",
+            "understanding_opposition",
+            "intellectual_integrity",
+            "constructive_dialogue",
+            "good_faith",
+            "socratic_method",
+            "principle_of_charity",
+            "dialectical_thinking",
+            "policy",
+            "governance"
         ]
     },
     {
@@ -447,7 +581,20 @@
         "tags": [
             "subtraction",
             "simplification",
-            "optimization"
+            "optimization",
+            "elimination",
+            "lean",
+            "harm_reduction",
+            "minimalism",
+            "removal",
+            "less_is_more",
+            "antifragile",
+            "declutter",
+            "inversion",
+            "occams_razor",
+            "lean_thinking",
+            "ethics",
+            "moral_reasoning"
         ]
     },
     {
@@ -490,7 +637,20 @@
             "philosophy",
             "science",
             "ethics",
-            "imagination"
+            "imagination",
+            "hypothesis",
+            "counterfactual",
+            "exploration",
+            "creativity",
+            "mental_modeling",
+            "what_if",
+            "abstract_reasoning",
+            "theoretical",
+            "scenario",
+            "moral_reasoning",
+            "first_principles_thinking",
+            "socratic_method",
+            "falsifiability"
         ]
     },
     {
@@ -532,7 +692,21 @@
         "tags": [
             "quality",
             "debugging",
-            "problem_solving"
+            "problem_solving",
+            "root_cause",
+            "troubleshooting",
+            "lean",
+            "continuous_improvement",
+            "diagnosis",
+            "investigation",
+            "drill_down",
+            "manufacturing",
+            "six_sigma",
+            "toyota",
+            "systems_thinking",
+            "fishbone_diagram",
+            "root_cause_analysis",
+            "software"
         ]
     },
     {
@@ -572,7 +746,20 @@
         "tags": [
             "philosophy",
             "argumentation",
-            "synthesis"
+            "synthesis",
+            "thesis_antithesis",
+            "contradiction",
+            "intellectual_progress",
+            "nuance",
+            "hegel",
+            "debate",
+            "resolution",
+            "opposing_views",
+            "steelmanning",
+            "socratic_method",
+            "scientific_method",
+            "policy",
+            "governance"
         ]
     },
     {
@@ -613,7 +800,19 @@
         "tags": [
             "planning",
             "preparation",
-            "anticipation"
+            "anticipation",
+            "visualization",
+            "rehearsal",
+            "contingency",
+            "risk_assessment",
+            "scenario",
+            "prediction",
+            "pre_planning",
+            "performance",
+            "high_stakes",
+            "premortem_analysis",
+            "scenario_planning",
+            "probabilistic_thinking"
         ]
     }
 ]

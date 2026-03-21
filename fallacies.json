@@ -26,7 +26,16 @@
         ],
         "tags": [
             "debate",
-            "misrepresentation"
+            "misrepresentation",
+            "logical_fallacy",
+            "argument_distortion",
+            "manipulation",
+            "debate_tactics",
+            "rhetoric",
+            "dishonest_argument",
+            "misquoting",
+            "high_severity",
+            "very_common_frequency"
         ]
     },
     {
@@ -55,7 +64,16 @@
         ],
         "tags": [
             "statistics",
-            "causality"
+            "causality",
+            "logical_fallacy",
+            "correlation_causation",
+            "reasoning_error",
+            "post_hoc",
+            "confounding_variables",
+            "data_analysis",
+            "scientific_reasoning",
+            "high_severity",
+            "common_frequency"
         ]
     },
     {
@@ -84,7 +102,16 @@
         ],
         "tags": [
             "fear",
-            "prediction"
+            "prediction",
+            "logical_fallacy",
+            "exaggeration",
+            "causal_chain",
+            "fear_mongering",
+            "policy_debate",
+            "risk_exaggeration",
+            "medium_severity",
+            "common_frequency",
+            "causal_prediction"
         ]
     },
     {
@@ -103,7 +130,8 @@
         ],
         "counter_questions": [
             "How does that relate to the argument itself?",
-            "Can we evaluate the claim independently of the person?"
+            "Can we evaluate the claim independently of the person?",
+            "Would the argument be stronger or weaker if someone else made it?"
         ],
         "severity": "high",
         "frequency": "very_common",
@@ -112,7 +140,16 @@
         ],
         "tags": [
             "debate",
-            "character_attack"
+            "character_attack",
+            "logical_fallacy",
+            "personal_attack",
+            "deflection",
+            "debate_tactics",
+            "credibility",
+            "rhetoric",
+            "attacking_character",
+            "high_severity",
+            "very_common_frequency"
         ]
     },
     {
@@ -141,7 +178,15 @@
         ],
         "tags": [
             "fairness",
-            "consistency"
+            "consistency",
+            "logical_fallacy",
+            "double_standard",
+            "hypocrisy",
+            "inconsistency",
+            "exemption",
+            "unfair_argument",
+            "high_severity",
+            "common_frequency"
         ]
     },
     {
@@ -170,7 +215,17 @@
         ],
         "tags": [
             "debate",
-            "questioning"
+            "questioning",
+            "logical_fallacy",
+            "manipulation",
+            "assumption",
+            "debate_tactics",
+            "trapping",
+            "presupposition",
+            "leading_question",
+            "medium_severity",
+            "common_frequency",
+            "question_trap"
         ]
     },
     {
@@ -199,7 +254,16 @@
         ],
         "tags": [
             "probability",
-            "randomness"
+            "randomness",
+            "logical_fallacy",
+            "probability_error",
+            "chance",
+            "independent_events",
+            "gambling",
+            "risk",
+            "statistical_reasoning",
+            "medium_severity",
+            "common_frequency"
         ]
     },
     {
@@ -218,7 +282,8 @@
         ],
         "counter_questions": [
             "Does popularity make something correct?",
-            "What evidence supports this claim?"
+            "What evidence supports this claim independently of its popularity?",
+            "Can you think of popular beliefs that turned out to be wrong?"
         ],
         "severity": "medium",
         "frequency": "very_common",
@@ -226,7 +291,17 @@
             "groupthink"
         ],
         "tags": [
-            "social_influence"
+            "social_influence",
+            "logical_fallacy",
+            "popularity",
+            "peer_pressure",
+            "herd_mentality",
+            "appeal_to_masses",
+            "social_proof",
+            "conformity",
+            "medium_severity",
+            "very_common_frequency",
+            "social_reasoning"
         ]
     },
     {
@@ -245,7 +320,8 @@
         ],
         "counter_questions": [
             "Is the authority qualified in this specific field?",
-            "What direct evidence supports the claim?"
+            "What direct evidence supports the claim?",
+            "Do other equally qualified authorities disagree?"
         ],
         "severity": "medium",
         "frequency": "common",
@@ -253,7 +329,15 @@
             "halo_effect"
         ],
         "tags": [
-            "authority"
+            "authority",
+            "logical_fallacy",
+            "expertise",
+            "credibility",
+            "independent_evidence",
+            "critical_evaluation",
+            "trust",
+            "medium_severity",
+            "common_frequency"
         ]
     },
     {
@@ -272,7 +356,8 @@
         ],
         "counter_questions": [
             "Why should part-level properties transfer to the whole?",
-            "What evidence supports this at the whole-system level?"
+            "What evidence supports this at the whole-system level?",
+            "Can you think of cases where parts have a property but the whole does not?"
         ],
         "severity": "medium",
         "frequency": "moderate",
@@ -281,7 +366,17 @@
         ],
         "tags": [
             "logic",
-            "systems"
+            "systems",
+            "logical_fallacy",
+            "generalization",
+            "part_whole",
+            "aggregate",
+            "emergence",
+            "ecological_fallacy",
+            "inference_error",
+            "medium_severity",
+            "moderate_frequency",
+            "part_whole_error"
         ]
     },
     {
@@ -309,7 +404,16 @@
         ],
         "tags": [
             "identity",
-            "goalpost_shift"
+            "goalpost_shift",
+            "logical_fallacy",
+            "moving_goalposts",
+            "definition_change",
+            "unfalsifiable",
+            "ad_hoc",
+            "group_identity",
+            "high_severity",
+            "common_frequency",
+            "purity_test"
         ]
     },
     {
@@ -337,7 +441,16 @@
         ],
         "tags": [
             "source_critique",
-            "evidence"
+            "evidence",
+            "logical_fallacy",
+            "origin",
+            "source_bias",
+            "irrelevant_reasoning",
+            "judging_by_origin",
+            "provenance",
+            "medium_severity",
+            "common_frequency",
+            "source_based_judgment"
         ]
     },
     {
@@ -359,10 +472,23 @@
         ],
         "severity": "high",
         "frequency": "very_common",
-        "related_biases": [],
+        "related_biases": [
+            "framing_effect",
+            "anchoring"
+        ],
         "tags": [
             "decision_making",
-            "polarization"
+            "polarization",
+            "logical_fallacy",
+            "binary_thinking",
+            "oversimplification",
+            "either_or",
+            "false_dichotomy",
+            "excluded_middle",
+            "nuance",
+            "high_severity",
+            "very_common_frequency",
+            "false_choices"
         ]
     },
     {
@@ -380,7 +506,9 @@
             "Claim A used as evidence for claim A"
         ],
         "counter_questions": [
-            "What independent evidence supports the claim?"
+            "What independent evidence supports the claim?",
+            "Is the premise just restating the conclusion in different words?",
+            "Can we find separate evidence for each part of this argument?"
         ],
         "severity": "medium",
         "frequency": "moderate",
@@ -389,7 +517,15 @@
         ],
         "tags": [
             "logic",
-            "circularity"
+            "circularity",
+            "logical_fallacy",
+            "circular_reasoning",
+            "tautology",
+            "self_referential",
+            "unsupported_claim",
+            "assumed_conclusion",
+            "medium_severity",
+            "moderate_frequency"
         ]
     },
     {
@@ -407,7 +543,8 @@
         ],
         "counter_questions": [
             "Does natural always mean better?",
-            "What evidence shows it is beneficial?"
+            "What evidence shows it is beneficial?",
+            "Can you name natural things that are harmful and artificial things that are helpful?"
         ],
         "severity": "medium",
         "frequency": "common",
@@ -416,7 +553,16 @@
         ],
         "tags": [
             "naturalism",
-            "health_claims"
+            "health_claims",
+            "logical_fallacy",
+            "naturalistic_fallacy",
+            "is_ought",
+            "natural_vs_artificial",
+            "health",
+            "organic",
+            "food_debate",
+            "medium_severity",
+            "common_frequency"
         ]
     },
     {
@@ -445,7 +591,17 @@
         ],
         "tags": [
             "evidence",
-            "statistics"
+            "statistics",
+            "logical_fallacy",
+            "evidence_quality",
+            "data",
+            "generalization",
+            "personal_experience",
+            "testimony",
+            "sample_size",
+            "medium_severity",
+            "very_common_frequency",
+            "evidence_error"
         ]
     },
     {
@@ -474,7 +630,15 @@
         ],
         "tags": [
             "statistics",
-            "cherry_picking"
+            "cherry_picking",
+            "logical_fallacy",
+            "data_mining",
+            "selection_bias",
+            "pattern_recognition",
+            "p_hacking",
+            "research_methodology",
+            "high_severity",
+            "common_frequency"
         ]
     },
     {
@@ -502,7 +666,16 @@
         ],
         "tags": [
             "negotiation",
-            "truth_criteria"
+            "truth_criteria",
+            "logical_fallacy",
+            "false_balance",
+            "compromise",
+            "centrism",
+            "argument_to_moderation",
+            "balance_fallacy",
+            "medium_severity",
+            "moderate_frequency",
+            "compromise_fallacy"
         ]
     },
     {
@@ -530,7 +703,17 @@
         ],
         "tags": [
             "persuasion",
-            "emotion"
+            "emotion",
+            "logical_fallacy",
+            "manipulation",
+            "rhetoric",
+            "propaganda",
+            "emotional_reasoning",
+            "pathos",
+            "fear_mongering",
+            "high_severity",
+            "very_common_frequency",
+            "emotional_manipulation"
         ]
     },
     {
@@ -558,7 +741,14 @@
         ],
         "tags": [
             "debate",
-            "deflection"
+            "deflection",
+            "logical_fallacy",
+            "whataboutism",
+            "hypocrisy",
+            "deflection_tactic",
+            "criticism_avoidance",
+            "medium_severity",
+            "common_frequency"
         ]
     },
     {
@@ -586,7 +776,15 @@
         ],
         "tags": [
             "epistemology",
-            "complexity"
+            "complexity",
+            "logical_fallacy",
+            "argument_from_ignorance",
+            "lack_of_imagination",
+            "understanding",
+            "arrogance",
+            "medium_severity",
+            "common_frequency",
+            "understanding_gap"
         ]
     },
     {
@@ -605,7 +803,8 @@
         ],
         "counter_questions": [
             "What positive evidence supports the claim?",
-            "Why should non-disproof count as proof?"
+            "Why should non-disproof count as proof?",
+            "Who made the claim first, and what was their evidence?"
         ],
         "severity": "high",
         "frequency": "common",
@@ -614,7 +813,16 @@
         ],
         "tags": [
             "evidence",
-            "argumentation"
+            "argumentation",
+            "logical_fallacy",
+            "evidence_responsibility",
+            "unfalsifiable",
+            "scientific_method",
+            "claims",
+            "default_position",
+            "high_severity",
+            "common_frequency",
+            "evidential_responsibility"
         ]
     },
     {
@@ -643,7 +851,17 @@
         ],
         "tags": [
             "language",
-            "semantics"
+            "semantics",
+            "logical_fallacy",
+            "equivocation",
+            "vagueness",
+            "word_games",
+            "interpretation",
+            "double_meaning",
+            "linguistic_confusion",
+            "medium_severity",
+            "moderate_frequency",
+            "language_trick"
         ]
     },
     {
@@ -661,7 +879,8 @@
         ],
         "counter_questions": [
             "Even if the argument is flawed, what is the actual evidence for or against the claim?",
-            "Can the conclusion still be true for other reasons?"
+            "Can the conclusion still be true for other reasons?",
+            "Am I conflating argument quality with truth of the conclusion?"
         ],
         "severity": "medium",
         "frequency": "moderate",
@@ -670,7 +889,15 @@
         ],
         "tags": [
             "logic",
-            "meta_reasoning"
+            "meta_reasoning",
+            "logical_fallacy",
+            "meta_argument",
+            "truth_vs_validity",
+            "argument_evaluation",
+            "error_in_reasoning",
+            "medium_severity",
+            "moderate_frequency",
+            "meta_reasoning_error"
         ]
     }
 ]
