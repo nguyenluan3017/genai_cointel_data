@@ -1,5 +1,5 @@
 {
-    "tools": [
+    "functions": [
         {
             "type": "function",
             "name": "decision_matrix",
@@ -264,7 +264,7 @@
         "conflict_reasoning",
         "self_reflection"
     ],
-    "tool_trigger": {
+    "triggers": {
         "decision_matrix": [
             "decision"
         ],
