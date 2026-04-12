@@ -1,0 +1,31 @@
+{
+    "categories": [
+        "decision",
+        "uncertainty",
+        "idea_exploration",
+        "belief_evaluation",
+        "conflict_reasoning",
+        "self_reflection"
+    ],
+    "triggers": {
+        "decision_matrix": [
+            "decision"
+        ],
+        "apply_framework": [
+            "decision",
+            "uncertainty",
+            "idea_exploration"
+        ],
+        "analyze_argument": [
+            "belief_evaluation",
+            "conflict_reasoning"
+        ],
+        "extract_assumptions": [
+            "self_reflection",
+            "belief_evaluation"
+        ],
+        "cluster_ideas": [
+            "idea_exploration"
+        ]
+    }
+}
